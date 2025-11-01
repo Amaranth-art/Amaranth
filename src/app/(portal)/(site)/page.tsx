@@ -517,19 +517,16 @@ const DummyContent = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <div className="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700 text-center">
             <div className="text-4xl font-black text-black dark:text-white mb-2">初级交易员</div>
-            <p className="text-gray-600 dark:text-gray-400 mb-2">小额实盘阶段</p>
             <p className="text-2xl font-bold text-black dark:text-white">¥10,000 - ¥30,000</p>
             <p className="text-sm text-gray-500 dark:text-gray-500 mt-2">月收入范围</p>
           </div>
           <div className="bg-white dark:bg-gray-800 p-6 border-2 border-black dark:border-white text-center">
             <div className="text-4xl font-black text-black dark:text-white mb-2">中级交易员</div>
-            <p className="text-gray-600 dark:text-gray-400 mb-2">大额矩阵阶段</p>
             <p className="text-2xl font-bold text-black dark:text-white">¥30,000 - ¥60,000</p>
             <p className="text-sm text-gray-500 dark:text-gray-500 mt-2">月收入范围</p>
           </div>
           <div className="bg-black dark:bg-white p-6 border-2 border-black dark:border-white text-center">
             <div className="text-4xl font-black text-white dark:text-black mb-2">资深交易员</div>
-            <p className="text-gray-300 dark:text-gray-700 mb-2">基金经理级别</p>
             <p className="text-2xl font-bold text-white dark:text-black">¥60,000 - ¥100,000+</p>
             <p className="text-sm text-gray-400 dark:text-gray-600 mt-2">月收入范围</p>
           </div>
