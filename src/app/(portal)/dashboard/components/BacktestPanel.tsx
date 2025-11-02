@@ -131,8 +131,8 @@ export default function BacktestPanel({ tradingConfig }: BacktestPanelProps) {
           </label>
           <p className="text-xs text-gray-500 dark:text-gray-400 mt-2 ml-8">
             {useHistoricalData
-              ? '✅ 将使用确定性算法生成的历史数据，每次运行相同参数结果一致'
-              : '⚠️ 将尝试从Binance获取真实历史数据，需要API凭证'}
+              ? ' 将使用确定性算法生成的历史数据，每次运行相同参数结果一致'
+              : ' 将尝试从Binance获取真实历史数据，需要API凭证'}
           </p>
         </div>
 
@@ -149,7 +149,7 @@ export default function BacktestPanel({ tradingConfig }: BacktestPanelProps) {
               </svg>
               运行中...
             </span>
-          ) : '🚀 运行回测'}
+          ) : ' 运行回测'}
         </button>
       </div>
 
@@ -202,26 +202,26 @@ export default function BacktestPanel({ tradingConfig }: BacktestPanelProps) {
               <MetricCard
                 title="总交易次数"
                 value={results.totalTrades.toString()}
-                icon="📊"
+                icon=""
                 color="blue"
               />
               <MetricCard
                 title="胜率"
                 value={`${(results.winRate || 0).toFixed(1)}%`}
-                icon="🎯"
+                icon=""
                 color="green"
               />
               <MetricCard
                 title="盈亏因子"
                 value={(results.profitFactor || 0).toFixed(2)}
-                icon="⚡"
+                icon=""
                 color="purple"
               />
               <MetricCard
                 title="总收益"
                 value={`$${(results.totalPnl || 0).toFixed(2)}`}
                 subtitle={`${(results.totalPnlPercent || 0) >= 0 ? '+' : ''}${(results.totalPnlPercent || 0).toFixed(2)}%`}
-                icon={(results.totalPnl || 0) >= 0 ? '📈' : '📉'}
+                icon={(results.totalPnl || 0) >= 0 ? '' : ''}
                 color={(results.totalPnl || 0) >= 0 ? 'green' : 'red'}
               />
             </div>
@@ -235,25 +235,25 @@ export default function BacktestPanel({ tradingConfig }: BacktestPanelProps) {
                 title="最大回撤"
                 value={`$${(results.maxDrawdown || 0).toFixed(2)}`}
                 subtitle={`${(results.maxDrawdownPercent || 0).toFixed(2)}%`}
-                icon="⚠️"
+                icon=""
                 color="red"
               />
               <MetricCard
                 title="平均盈利"
                 value={`$${(results.averageWin || 0).toFixed(2)}`}
-                icon="💰"
+                icon=""
                 color="green"
               />
               <MetricCard
                 title="平均亏损"
                 value={`$${Math.abs(results.averageLoss || 0).toFixed(2)}`}
-                icon="💸"
+                icon=""
                 color="red"
               />
               <MetricCard
                 title="日均交易"
                 value={(results.tradesPerDay || 0).toFixed(1)}
-                icon="📅"
+                icon=""
                 color="blue"
               />
             </div>
@@ -262,7 +262,7 @@ export default function BacktestPanel({ tradingConfig }: BacktestPanelProps) {
           {/* Equity Curve Chart */}
           <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border-2 border-gray-200 dark:border-gray-700">
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
-              <span className="mr-2">📈</span>
+              <span className="mr-2"></span>
               资金曲线
             </h3>
             <ProfitChart results={results} />
@@ -271,7 +271,7 @@ export default function BacktestPanel({ tradingConfig }: BacktestPanelProps) {
           {/* Trade List */}
           <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border-2 border-gray-200 dark:border-gray-700">
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
-              <span className="mr-2">📋</span>
+              <span className="mr-2"></span>
               交易记录 ({results.trades.length})
             </h3>
             <div className="overflow-x-auto rounded-lg border border-gray-200 dark:border-gray-700">
@@ -303,7 +303,7 @@ export default function BacktestPanel({ tradingConfig }: BacktestPanelProps) {
                             ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400'
                             : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400'
                         }`}>
-                          {trade.side === 'long' ? '做多 ↗' : '做空 ↘'}
+                          {trade.side === 'long' ? '做多 ' : '做空 '}
                         </span>
                       </td>
                       <td className="px-4 py-3 text-right font-mono font-medium text-gray-900 dark:text-gray-100">
@@ -380,12 +380,12 @@ function MetricCard({ title, value, subtitle, icon, color }: MetricCardProps) {
 
 function getExitReasonText(reason?: string): string {
   const reasons: Record<string, string> = {
-    'stop_loss': '止损 🛑',
-    'take_profit': '止盈 ✅',
-    'trailing_stop': '跟踪止损 📉',
-    'signal': '反向信号 🔄',
+    'stop_loss': '止损 ',
+    'take_profit': '止盈 ',
+    'trailing_stop': '跟踪止损 ',
+    'signal': '反向信号 ',
     'daily_limit': '日限额 ⏸️',
-    'drawdown_limit': '回撤限制 ⚠️',
+    'drawdown_limit': '回撤限制 ',
   };
   return reasons[reason || ''] || '未知';
 }

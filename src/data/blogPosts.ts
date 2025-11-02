@@ -706,24 +706,24 @@ export const blogPosts: BlogPost[] = [
  <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
  <p class="text-lg font-bold text-gray-800 dark:text-gray-200 mb-4"> 大多数货币对（4位小数）</p>
  <div class="bg-gray-50 dark:bg-gray-950 p-4 mb-3">
- <p class="font-mono text-xl text-center text-gray-900 dark:text-gray-200">1.1000 → 1.1001</p>
+ <p class="font-mono text-xl text-center text-gray-900 dark:text-gray-200">1.1000  1.1001</p>
  <p class="text-center text-sm text-gray-600 dark:text-gray-400 mt-2">移动 <strong class="text-gray-700 dark:text-gray-300">1 个点</strong></p>
  </div>
  <ul class="space-y-2 text-gray-700 dark:text-gray-300">
- <li class="flex items-start"><span class="mr-2 text-gray-600">•</span><span>EUR/USD: 1.1000 → 1.1005 = <strong>5 点</strong></span></li>
- <li class="flex items-start"><span class="mr-2 text-gray-600">•</span><span>GBP/USD: 1.3000 → 1.2995 = <strong>-5 点</strong></span></li>
+ <li class="flex items-start"><span class="mr-2 text-gray-600">•</span><span>EUR/USD: 1.1000  1.1005 = <strong>5 点</strong></span></li>
+ <li class="flex items-start"><span class="mr-2 text-gray-600">•</span><span>GBP/USD: 1.3000  1.2995 = <strong>-5 点</strong></span></li>
  </ul>
  </div>
 
  <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
  <p class="text-lg font-bold text-gray-800 dark:text-gray-200 mb-4"> 日元货币对（2位小数）</p>
  <div class="bg-gray-50 dark:bg-gray-950 p-4 mb-3">
- <p class="font-mono text-xl text-center text-gray-900 dark:text-gray-200">110.00 → 110.01</p>
+ <p class="font-mono text-xl text-center text-gray-900 dark:text-gray-200">110.00  110.01</p>
  <p class="text-center text-sm text-gray-600 dark:text-gray-400 mt-2">移动 <strong class="text-gray-700 dark:text-gray-300">1 个点</strong></p>
  </div>
  <ul class="space-y-2 text-gray-700 dark:text-gray-300">
- <li class="flex items-start"><span class="mr-2 text-gray-600">•</span><span>USD/JPY: 110.00 → 110.10 = <strong>10 点</strong></span></li>
- <li class="flex items-start"><span class="mr-2 text-gray-600">•</span><span>EUR/JPY: 130.00 → 129.95 = <strong>-5 点</strong></span></li>
+ <li class="flex items-start"><span class="mr-2 text-gray-600">•</span><span>USD/JPY: 110.00  110.10 = <strong>10 点</strong></span></li>
+ <li class="flex items-start"><span class="mr-2 text-gray-600">•</span><span>EUR/JPY: 130.00  129.95 = <strong>-5 点</strong></span></li>
  </ul>
  </div>
  </div>
@@ -1477,28 +1477,28 @@ export const blogPosts: BlogPost[] = [
 
 <h3 class="text-2xl font-bold mt-8 mb-4">Why Choose Forex Trading?</h3>
 
-<strong>① Massive Market Size</strong>
+<strong> Massive Market Size</strong>
 <ul class="list-disc list-inside mb-6 space-y-2">
  <li class="leading-relaxed">Global daily volume exceeds $6 trillion</li>
  <li class="leading-relaxed">Extremely high liquidity with minimal slippage</li>
  <li class="leading-relaxed">Quick entry and exit at any time</li>
 </ul>
 
-<strong>② 24-Hour Trading</strong>
+<strong> 24-Hour Trading</strong>
 <ul class="list-disc list-inside mb-6 space-y-2">
  <li class="leading-relaxed">Monday through Friday continuous trading</li>
  <li class="leading-relaxed">Suits traders in different time zones</li>
  <li class="leading-relaxed">Flexible trading schedule</li>
 </ul>
 
-<strong>③ Bidirectional Trading Opportunities</strong>
+<strong> Bidirectional Trading Opportunities</strong>
 <ul class="list-disc list-inside mb-6 space-y-2">
  <li class="leading-relaxed">Can go long (buy)</li>
  <li class="leading-relaxed">Can go short (sell)</li>
  <li class="leading-relaxed">Profit opportunities in both rising and falling markets</li>
 </ul>
 
-<strong>④ Leverage Trading</strong>
+<strong> Leverage Trading</strong>
 <ul class="list-disc list-inside mb-6 space-y-2">
  <li class="leading-relaxed">Control large positions with small capital</li>
  <li class="leading-relaxed">Amplify profit potential</li>
@@ -2850,7 +2850,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 p-6 border-2 border-gray-300 dark:border-gray-700">
- <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200">🌸 春季（3-5月）</h3>
+ <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200"> 春季（3-5月）</h3>
  <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>特点：</strong>印度婚礼季，黄金需求旺盛</p>
  <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>表现：</strong>通常走强，特别是4-5月</p>
  <p class="text-gray-700 dark:text-gray-300"><strong>策略：</strong>回调时适合买入，做多为主</p>
@@ -2864,7 +2864,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 p-6 border-2 border-gray-400 dark:border-gray-600">
- <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200">🍂 秋季（9-11月）</h3>
+ <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200"> 秋季（9-11月）</h3>
  <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>特点：</strong>印度排灯节和中国婚庆季</p>
  <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>表现：</strong>历史上涨概率最高的季节</p>
  <p class="text-gray-700 dark:text-gray-300"><strong>策略：</strong>积极做多，最佳建仓期</p>
@@ -2885,7 +2885,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="my-12 h-px bg-gradient-to-r from-transparent via-amber-300 dark:via-amber-700 to-transparent"></div>
 
-<h2 class="text-4xl font-bold mt-16 mb-8 bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 bg-clip-text text-transparent">五、重大经济事件时间表 📢</h2>
+<h2 class="text-4xl font-bold mt-16 mb-8 bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 bg-clip-text text-transparent">五、重大经济事件时间表 </h2>
 
 <p class="text-xl mb-8 leading-relaxed">除了固定时段，某些经济事件和数据发布对黄金影响巨大。把握这些时间点，往往能抓住大行情：</p>
 
@@ -3009,7 +3009,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 p-6 border-2 border-gray-400 dark:border-gray-600 mb-10">
- <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200">🎓 组合使用效果最佳</h3>
+ <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200"> 组合使用效果最佳</h3>
  <p class="text-gray-800 dark:text-gray-200 mb-3">单一指标容易产生假信号，建议组合使用：</p>
  <ul class="space-y-2 text-gray-800 dark:text-gray-200">
  <li class="flex items-start"><span class="mr-2 text-gray-600">•</span><span><strong>趋势确认：</strong>MA + MACD 组合，确认趋势方向</span></li>
@@ -3020,7 +3020,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="my-12 h-px bg-gradient-to-r from-transparent via-amber-300 dark:via-amber-700 to-transparent"></div>
 
-<h2 class="text-4xl font-bold mt-16 mb-8 bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 bg-clip-text text-transparent">七、市场情绪与时机 😊</h2>
+<h2 class="text-4xl font-bold mt-16 mb-8 bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 bg-clip-text text-transparent">七、市场情绪与时机 </h2>
 
 <p class="text-xl mb-8 leading-relaxed">黄金作为避险资产，市场情绪对其影响极大。学会解读市场情绪，能帮你抢先一步：</p>
 
@@ -3039,7 +3039,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-green-950 dark:to-emerald-950 p-6 border-l-4 border-gray-500">
- <h4 class="text-xl font-bold text-gray-900 dark:text-gray-200 mb-3">😊 乐观时刻（黄金下跌）</h4>
+ <h4 class="text-xl font-bold text-gray-900 dark:text-gray-200 mb-3"> 乐观时刻（黄金下跌）</h4>
  <ul class="space-y-2 text-gray-700 dark:text-gray-300">
  <li class="flex items-start"><span class="mr-2 text-gray-600">▸</span><span><strong>股市创新高：</strong>风险偏好提升，黄金遭抛售</span></li>
  <li class="flex items-start"><span class="mr-2 text-gray-600">▸</span><span><strong>美元走强：</strong>DXY突破重要阻力，黄金承压</span></li>
@@ -3049,7 +3049,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 p-6 border-l-4 border-gray-500">
- <h4 class="text-xl font-bold text-gray-900 dark:text-gray-200 mb-3">😐 中性时刻（黄金震荡）</h4>
+ <h4 class="text-xl font-bold text-gray-900 dark:text-gray-200 mb-3"> 中性时刻（黄金震荡）</h4>
  <ul class="space-y-2 text-gray-700 dark:text-gray-300">
  <li class="flex items-start"><span class="mr-2 text-gray-600">▸</span><span><strong>市场观望：</strong>重大数据前，交易清淡</span></li>
  <li class="flex items-start"><span class="mr-2 text-gray-600">▸</span><span><strong>假期效应：</strong>圣诞节、感恩节前后，流动性差</span></li>
@@ -3123,7 +3123,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="my-12 h-px bg-gradient-to-r from-transparent via-yellow-300 dark:via-yellow-700 to-transparent"></div>
 
-<h2 class="text-4xl font-bold mt-16 mb-8 bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 bg-clip-text text-transparent">九、时机把握的实战案例 📖</h2>
+<h2 class="text-4xl font-bold mt-16 mb-8 bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 bg-clip-text text-transparent">九、时机把握的实战案例 </h2>
 
 <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 p-8 border-2 border-gray-300 dark:border-gray-700 mb-10">
  <h3 class="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-200">案例1：把握非农数据交易 </h3>
@@ -3387,7 +3387,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 p-6 border-2 border-gray-300 dark:border-gray-700">
- <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200">🌸 Spring (Mar-May)</h3>
+ <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200"> Spring (Mar-May)</h3>
  <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>Feature:</strong> Indian wedding season, strong gold demand</p>
  <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>Performance:</strong> Usually strengthens, especially Apr-May</p>
  <p class="text-gray-700 dark:text-gray-300"><strong>Strategy:</strong> Buy on dips, focus on long positions</p>
@@ -3401,7 +3401,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 p-6 border-2 border-gray-400 dark:border-gray-600">
- <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200">🍂 Fall (Sep-Nov)</h3>
+ <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200"> Fall (Sep-Nov)</h3>
  <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>Feature:</strong> Indian Diwali and Chinese wedding season</p>
  <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>Performance:</strong> Historically highest probability of gains</p>
  <p class="text-gray-700 dark:text-gray-300"><strong>Strategy:</strong> Aggressive long positions, best accumulation period</p>
@@ -3642,31 +3642,31 @@ export const blogPosts: BlogPost[] = [
  <div class="grid grid-cols-3 gap-4 items-center py-3 border-b border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-950">
  <div class="text-gray-800 dark:text-gray-200 font-semibold">美元指数(DXY)</div>
  <div class="text-gray-900 dark:text-gray-900 font-bold">-0.8（强负相关）</div>
- <div class="text-gray-700 dark:text-gray-300">美元跌破关键支撑→做多黄金</div>
+ <div class="text-gray-700 dark:text-gray-300">美元跌破关键支撑做多黄金</div>
  </div>
 
  <div class="grid grid-cols-3 gap-4 items-center py-3 border-b border-gray-200 dark:border-gray-700">
  <div class="text-gray-800 dark:text-gray-200">10年期美债收益率</div>
  <div class="text-gray-900 dark:text-gray-900 font-bold">-0.6（负相关）</div>
- <div class="text-gray-700 dark:text-gray-300">收益率下跌→做多黄金</div>
+ <div class="text-gray-700 dark:text-gray-300">收益率下跌做多黄金</div>
  </div>
 
  <div class="grid grid-cols-3 gap-4 items-center py-3 border-b border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-950">
  <div class="text-gray-800 dark:text-gray-200 font-semibold">标普500</div>
  <div class="text-gray-900 dark:text-gray-900">-0.3（弱负相关）</div>
- <div class="text-gray-700 dark:text-gray-300">股市暴跌→避险资金涌入黄金</div>
+ <div class="text-gray-700 dark:text-gray-300">股市暴跌避险资金涌入黄金</div>
  </div>
 
  <div class="grid grid-cols-3 gap-4 items-center py-3 border-b border-gray-200 dark:border-gray-700">
  <div class="text-gray-800 dark:text-gray-200">白银(XAG)</div>
  <div class="text-gray-600 dark:text-gray-400 font-bold">+0.7（正相关）</div>
- <div class="text-gray-700 dark:text-gray-300">黄金上涨→白银通常跟涨</div>
+ <div class="text-gray-700 dark:text-gray-300">黄金上涨白银通常跟涨</div>
  </div>
 
  <div class="grid grid-cols-3 gap-4 items-center py-3 bg-gray-50 dark:bg-gray-950">
  <div class="text-gray-800 dark:text-gray-200 font-semibold">原油(WTI)</div>
  <div class="text-gray-600 dark:text-gray-400">+0.4（弱正相关）</div>
- <div class="text-gray-700 dark:text-gray-300">原油暴涨→通胀预期→黄金上涨</div>
+ <div class="text-gray-700 dark:text-gray-300">原油暴涨通胀预期黄金上涨</div>
  </div>
  </div>
 
@@ -3686,7 +3686,7 @@ export const blogPosts: BlogPost[] = [
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 p-6 border-2 border-gray-300 dark:border-gray-700">
  <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200"> COT持仓报告</h3>
  <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>什么是COT：</strong>商品期货交易委员会每周公布的机构持仓数据</p>
- <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>如何使用：</strong>大型投机者净多头持仓增加→看涨黄金</p>
+ <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>如何使用：</strong>大型投机者净多头持仓增加看涨黄金</p>
  <p class="text-gray-700 dark:text-gray-300"><strong>查看地址：</strong>CFTC官网，每周五更新</p>
  </div>
 
@@ -3701,7 +3701,7 @@ export const blogPosts: BlogPost[] = [
  <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-200"> VIX恐慌指数</h3>
  <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>指数含义：</strong>衡量股市波动率和恐慌情绪</p>
  <p class="text-gray-700 dark:text-gray-300 mb-3"><strong>正常范围：</strong>12-20；>25为恐慌</p>
- <p class="text-gray-700 dark:text-gray-300"><strong>交易信号：</strong>VIX飙升至30+→避险需求爆发→做多黄金</p>
+ <p class="text-gray-700 dark:text-gray-300"><strong>交易信号：</strong>VIX飙升至30+避险需求爆发做多黄金</p>
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 p-6 border-2 border-gray-400 dark:border-gray-600">
@@ -3757,36 +3757,36 @@ export const blogPosts: BlogPost[] = [
 <h2 class="text-4xl font-bold mt-16 mb-8 bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 bg-clip-text text-transparent">六、黄金交易常见错误 </h2>
 
 <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-orange-950 p-8 border-l-8 border-gray-900 mb-10">
- <h3 class="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-900">💀 这些错误让90%的人亏钱</h3>
+ <h3 class="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-900"> 这些错误让90%的人亏钱</h3>
 
  <div class="space-y-4">
  <div class="bg-white dark:bg-gray-800 p-5 border-l-4 border-gray-900">
  <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-2"> 错误1：无止损或止损过大</h4>
- <p class="text-gray-700 dark:text-gray-300">心态："我相信它会反弹" → 结果：单笔亏损50%+</p>
+ <p class="text-gray-700 dark:text-gray-300">心态："我相信它会反弹"  结果：单笔亏损50%+</p>
  <p class="text-gray-700 dark:text-gray-300 mt-2"> 正确：永远设置止损，止损不超过账户资金的2-3%</p>
  </div>
 
  <div class="bg-white dark:bg-gray-800 p-5 border-l-4 border-gray-900">
  <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-2"> 错误2：频繁交易（Over-trading）</h4>
- <p class="text-gray-700 dark:text-gray-300">行为：一天交易20-50次，追涨杀跌 → 结果：手续费吃光利润</p>
+ <p class="text-gray-700 dark:text-gray-300">行为：一天交易20-50次，追涨杀跌  结果：手续费吃光利润</p>
  <p class="text-gray-700 dark:text-gray-300 mt-2"> 正确：只交易高质量设置，宁可错过不可做错</p>
  </div>
 
  <div class="bg-white dark:bg-gray-800 p-5 border-l-4 border-gray-900">
  <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-2"> 错误3：逆势交易（抄底摸顶）</h4>
- <p class="text-gray-700 dark:text-gray-300">心态："已经跌这么多了，该反弹了" → 结果：接飞刀被割</p>
+ <p class="text-gray-700 dark:text-gray-300">心态："已经跌这么多了，该反弹了"  结果：接飞刀被割</p>
  <p class="text-gray-700 dark:text-gray-300 mt-2"> 正确：顺势而为，趋势是你的朋友</p>
  </div>
 
  <div class="bg-white dark:bg-gray-800 p-5 border-l-4 border-gray-900">
  <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-2"> 错误4：亏损加仓（马丁格尔策略）</h4>
- <p class="text-gray-700 dark:text-gray-300">操作：$2,000做多亏$10，$2,010加仓 → 结果：爆仓概率99%</p>
+ <p class="text-gray-700 dark:text-gray-300">操作：$2,000做多亏$10，$2,010加仓  结果：爆仓概率99%</p>
  <p class="text-gray-700 dark:text-gray-300 mt-2"> 正确：只在盈利时加仓，亏损时果断止损</p>
  </div>
 
  <div class="bg-white dark:bg-gray-800 p-5 border-l-4 border-gray-900">
  <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-2"> 错误5：不记交易日志</h4>
- <p class="text-gray-700 dark:text-gray-300">问题：无法复盘，重复犯同样错误 → 结果：无法进步</p>
+ <p class="text-gray-700 dark:text-gray-300">问题：无法复盘，重复犯同样错误  结果：无法进步</p>
  <p class="text-gray-700 dark:text-gray-300 mt-2"> 正确：每笔交易记录入场原因、止损止盈、结果和反思</p>
  </div>
  </div>
@@ -3820,7 +3820,7 @@ export const blogPosts: BlogPost[] = [
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 p-6">
  <h4 class="text-xl font-bold text-gray-900 dark:text-gray-200 mb-3">4. 建立交易仪式</h4>
- <p class="text-gray-800 dark:text-gray-200 mb-2">每天开盘前30分钟：查看经济日历→分析多时间框架图表→制定今日计划。</p>
+ <p class="text-gray-800 dark:text-gray-200 mb-2">每天开盘前30分钟：查看经济日历分析多时间框架图表制定今日计划。</p>
  <p class="text-gray-700 dark:text-gray-300">仪式化能帮你进入专注状态，减少冲动交易。</p>
  </div>
  </div>
@@ -3828,7 +3828,7 @@ export const blogPosts: BlogPost[] = [
 
 <div class="my-12 h-px bg-gradient-to-r from-transparent via-yellow-300 dark:via-yellow-700 to-transparent"></div>
 
-<h2 class="text-4xl font-bold mt-16 mb-8 bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 bg-clip-text text-transparent">八、黄金交易终极秘诀 🔑</h2>
+<h2 class="text-4xl font-bold mt-16 mb-8 bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 bg-clip-text text-transparent">八、黄金交易终极秘诀 </h2>
 
 <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900 dark:to-gray-950 p-8 border-2 border-gray-400 dark:border-gray-600 mb-10">
  <h3 class="text-3xl font-bold mb-6 text-gray-900 dark:text-gray-200"> 职业交易员的三大核心原则</h3>
@@ -4362,7 +4362,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <h3 class="text-2xl font-bold mb-4 text-gray-700 dark:text-gray-300">🏦 交易所类型</h3>
+ <h3 class="text-2xl font-bold mb-4 text-gray-700 dark:text-gray-300"> 交易所类型</h3>
 
  <div class="space-y-4">
  <div class="bg-gray-50 dark:bg-gray-900/30 p-4">
@@ -4458,7 +4458,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/50 dark:to-pink-900/50 p-6 border-2 border-gray-200 dark:border-gray-700">
- <div class="text-3xl mb-3">🎣</div>
+ <div class="text-3xl mb-3"></div>
  <h4 class="font-bold text-lg mb-3 text-gray-700 dark:text-gray-300">防范钓鱼攻击</h4>
  <p class="text-sm mb-3">识别和避免诈骗</p>
  <ul class="text-xs space-y-2">
@@ -4480,7 +4480,7 @@ export const blogPosts: BlogPost[] = [
 
  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-green-900/20 dark:to-emerald-900/20 p-5 border border-gray-300 dark:border-gray-700">
- <h4 class="font-bold text-gray-700 dark:text-gray-300 mb-3">🟢 绿色/阳线（涨）</h4>
+ <h4 class="font-bold text-gray-700 dark:text-gray-300 mb-3"> 绿色/阳线（涨）</h4>
  <ul class="text-sm space-y-2">
  <li>• 收盘价 > 开盘价</li>
  <li>• 下方实体 = 开盘价</li>
@@ -4490,7 +4490,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/20 dark:to-pink-900/20 p-5 border border-gray-900 dark:border-gray-900">
- <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-3">🔴 红色/阴线（跌）</h4>
+ <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-3"> 红色/阴线（跌）</h4>
  <ul class="text-sm space-y-2">
  <li>• 收盘价 < 开盘价</li>
  <li>• 上方实体 = 开盘价</li>
@@ -4524,7 +4524,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <div class="bg-white dark:bg-gray-800 p-8 border-2 border-gray-200 dark:border-gray-700 mb-8">
- <h3 class="text-2xl font-bold mb-6 text-gray-700 dark:text-gray-300">📖 订单簿（Order Book）</h3>
+ <h3 class="text-2xl font-bold mb-6 text-gray-700 dark:text-gray-300"> 订单簿（Order Book）</h3>
  <p class="mb-6 leading-relaxed">显示市场上所有买入和卖出订单的实时列表。</p>
 
  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -4577,12 +4577,12 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/30 dark:to-pink-900/30 p-5 border border-gray-200 dark:border-gray-700">
- <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2">😨 FUD</h4>
+ <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2"> FUD</h4>
  <p class="text-sm">恐惧、不确定、怀疑（Fear, Uncertainty, Doubt），负面消息传播</p>
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/30 dark:to-gray-950/30 p-5 border border-gray-200 dark:border-gray-700">
- <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2">🐋 Whale</h4>
+ <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2"> Whale</h4>
  <p class="text-sm">鲸鱼，持有大量加密货币的投资者，能影响市场</p>
  </div>
 
@@ -4612,7 +4612,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/30 dark:to-gray-950/30 p-5 border border-gray-200 dark:border-gray-700">
- <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2">🌊 Pump & Dump</h4>
+ <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2"> Pump & Dump</h4>
  <p class="text-sm">拉高出货，人为操纵价格后抛售</p>
  </div>
 
@@ -4622,7 +4622,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/30 dark:to-gray-950/30 p-5 border border-gray-200 dark:border-gray-700">
- <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2">🏦 DeFi</h4>
+ <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2"> DeFi</h4>
  <p class="text-sm">去中心化金融，无需传统金融中介的金融服务</p>
  </div>
 </div>
@@ -5151,7 +5151,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <h3 class="text-2xl font-bold mb-4 text-gray-700 dark:text-gray-300">🏦 Exchange Types</h3>
+ <h3 class="text-2xl font-bold mb-4 text-gray-700 dark:text-gray-300"> Exchange Types</h3>
 
  <div class="space-y-4">
  <div class="bg-gray-50 dark:bg-gray-900/30 p-4">
@@ -5247,7 +5247,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/50 dark:to-pink-900/50 p-6 border-2 border-gray-200 dark:border-gray-700">
- <div class="text-3xl mb-3">🎣</div>
+ <div class="text-3xl mb-3"></div>
  <h4 class="font-bold text-lg mb-3 text-gray-700 dark:text-gray-300">Prevent Phishing</h4>
  <p class="text-sm mb-3">Identify and avoid scams</p>
  <ul class="text-xs space-y-2">
@@ -5269,7 +5269,7 @@ export const blogPosts: BlogPost[] = [
 
  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-green-900/20 dark:to-emerald-900/20 p-5 border border-gray-300 dark:border-gray-700">
- <h4 class="font-bold text-gray-700 dark:text-gray-300 mb-3">🟢 Green/Bullish Candle</h4>
+ <h4 class="font-bold text-gray-700 dark:text-gray-300 mb-3"> Green/Bullish Candle</h4>
  <ul class="text-sm space-y-2">
  <li>• Close price > Open price</li>
  <li>• Bottom of body = Open price</li>
@@ -5279,7 +5279,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/20 dark:to-pink-900/20 p-5 border border-gray-900 dark:border-gray-900">
- <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-3">🔴 Red/Bearish Candle</h4>
+ <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-3"> Red/Bearish Candle</h4>
  <ul class="text-sm space-y-2">
  <li>• Close price < Open price</li>
  <li>• Top of body = Open price</li>
@@ -5313,7 +5313,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <div class="bg-white dark:bg-gray-800 p-8 border-2 border-gray-200 dark:border-gray-700 mb-8">
- <h3 class="text-2xl font-bold mb-6 text-gray-700 dark:text-gray-300">📖 Order Book</h3>
+ <h3 class="text-2xl font-bold mb-6 text-gray-700 dark:text-gray-300"> Order Book</h3>
  <p class="mb-6 leading-relaxed">Real-time list of all buy and sell orders in the market.</p>
 
  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -5366,12 +5366,12 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/30 dark:to-pink-900/30 p-5 border border-gray-200 dark:border-gray-700">
- <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2">😨 FUD</h4>
+ <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2"> FUD</h4>
  <p class="text-sm">Fear, Uncertainty, Doubt - spreading negative news</p>
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/30 dark:to-gray-950/30 p-5 border border-gray-200 dark:border-gray-700">
- <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2">🐋 Whale</h4>
+ <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2"> Whale</h4>
  <p class="text-sm">Large holder with enough crypto to move markets</p>
  </div>
 
@@ -5401,7 +5401,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/30 dark:to-gray-950/30 p-5 border border-gray-200 dark:border-gray-700">
- <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2">🌊 Pump & Dump</h4>
+ <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2"> Pump & Dump</h4>
  <p class="text-sm">Artificially inflating price then selling off</p>
  </div>
 
@@ -5411,7 +5411,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/30 dark:to-gray-950/30 p-5 border border-gray-200 dark:border-gray-700">
- <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2">🏦 DeFi</h4>
+ <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-2"> DeFi</h4>
  <p class="text-sm">Decentralized Finance, financial services without traditional intermediaries</p>
  </div>
 </div>
@@ -5759,14 +5759,14 @@ export const blogPosts: BlogPost[] = [
  </div>
  </div>
  <div class="flex items-start gap-3">
- <span class="text-2xl">👥</span>
+ <span class="text-2xl"></span>
  <div>
  <p class="font-bold">群体效应：</p>
  <p class="text-sm">看到朋友或KOL晒收益，忍不住跟进</p>
  </div>
  </div>
  <div class="flex items-start gap-3">
- <span class="text-2xl">💭</span>
+ <span class="text-2xl"></span>
  <div>
  <p class="font-bold">"这次不一样"心理：</p>
  <p class="text-sm">明知道泡沫但觉得"还会再涨"</p>
@@ -5908,7 +5908,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-gray-50 dark:bg-gray-900 dark:from-gray-900/30 dark:to-gray-950/30 p-6 border-2 border-gray-200 dark:border-gray-700">
- <h3 class="text-2xl font-bold mb-4 text-gray-700 dark:text-gray-300">🛑 恐慌性抛售识别</h3>
+ <h3 class="text-2xl font-bold mb-4 text-gray-700 dark:text-gray-300"> 恐慌性抛售识别</h3>
  <div class="space-y-4">
  <div class="bg-white dark:bg-gray-800 p-4">
  <p class="font-bold mb-2 text-gray-900">危险信号：</p>
@@ -5997,7 +5997,7 @@ export const blogPosts: BlogPost[] = [
 
  <div class="bg-white dark:bg-gray-800 p-6">
  <div class="flex items-center gap-3 mb-4">
- <span class="text-3xl">👥</span>
+ <span class="text-3xl"></span>
  <h4 class="font-bold text-lg">建立支持系统</h4>
  </div>
  <p class="text-sm mb-3">与其他理性交易者交流，避免孤军奋战。</p>
@@ -6058,7 +6058,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <div class="text-3xl mb-3">🎲</div>
+ <div class="text-3xl mb-3"></div>
  <h4 class="font-bold text-lg mb-3 text-gray-700 dark:text-gray-300">赌徒谬误</h4>
  <p class="text-sm mb-3">认为过去事件会影响未来概率。</p>
  <div class="bg-gray-50 dark:bg-gray-900/30 p-3 text-xs">
@@ -6160,7 +6160,7 @@ export const blogPosts: BlogPost[] = [
 
  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
  <div class="bg-white dark:bg-gray-800 p-5 border-l-4 border-gray-900">
- <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-3">🚨 情绪失控</h4>
+ <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-3"> 情绪失控</h4>
  <ul class="text-sm space-y-2">
  <li>• 连续几天睡眠少于6小时</li>
  <li>• 无法专注于工作或生活</li>
@@ -6171,7 +6171,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-white dark:bg-gray-800 p-5 border-l-4 border-gray-500">
- <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-3">🚨 行为异常</h4>
+ <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-3"> 行为异常</h4>
  <ul class="text-sm space-y-2">
  <li>• 开始借钱或使用信用卡交易</li>
  <li>• 隐瞒交易亏损不敢告诉家人</li>
@@ -6182,7 +6182,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-white dark:bg-gray-800 p-5 border-l-4 border-gray-900">
- <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-3">🚨 认知扭曲</h4>
+ <h4 class="font-bold text-gray-900 dark:text-gray-900 mb-3"> 认知扭曲</h4>
  <ul class="text-sm space-y-2">
  <li>• 相信自己能预测市场</li>
  <li>• 觉得"这次不一样"</li>
@@ -6193,7 +6193,7 @@ export const blogPosts: BlogPost[] = [
  </div>
 
  <div class="bg-white dark:bg-gray-800 p-5 border-l-4 border-gray-500">
- <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-3">🚨 身体症状</h4>
+ <h4 class="font-bold text-gray-600 dark:text-gray-400 mb-3"> 身体症状</h4>
  <ul class="text-sm space-y-2">
  <li>• 胸闷、心悸、头痛</li>
  <li>• 食欲不振或暴饮暴食</li>
@@ -6630,11 +6630,11 @@ export const blogPosts: BlogPost[] = [
 <div class="bg-gray-50 dark:bg-gray-900 dark:from-teal-900 dark:to-green-900 p-10 mb-10 border-2 border-gray-300 dark:border-gray-700">
  <h3 class="text-3xl font-bold mb-6 text-center text-gray-900 dark:text-gray-200">重要提醒</h3>
  <div class="space-y-4 text-lg text-gray-800 dark:text-gray-200">
- <p>✦ 心理素质的培养是一个<strong class="text-gray-700 dark:text-gray-300">长期过程</strong>，不可能一蹴而就。</p>
- <p>✦ 每个人的心理特点不同，找到<strong class="text-gray-700 dark:text-gray-300">适合自己的方法</strong>最重要。</p>
- <p>✦ <strong class="text-gray-700 dark:text-gray-300">刻意练习</strong>比简单重复更有效，要有针对性地训练。</p>
- <p>✦ 心理素质好不代表不会有情绪，而是能够<strong class="text-gray-700 dark:text-gray-300">及时识别和控制</strong>情绪。</p>
- <p>✦ 职业交易员的心理素质是在<strong class="text-gray-700 dark:text-gray-300">无数次实战</strong>中磨练出来的。</p>
+ <p> 心理素质的培养是一个<strong class="text-gray-700 dark:text-gray-300">长期过程</strong>，不可能一蹴而就。</p>
+ <p> 每个人的心理特点不同，找到<strong class="text-gray-700 dark:text-gray-300">适合自己的方法</strong>最重要。</p>
+ <p> <strong class="text-gray-700 dark:text-gray-300">刻意练习</strong>比简单重复更有效，要有针对性地训练。</p>
+ <p> 心理素质好不代表不会有情绪，而是能够<strong class="text-gray-700 dark:text-gray-300">及时识别和控制</strong>情绪。</p>
+ <p> 职业交易员的心理素质是在<strong class="text-gray-700 dark:text-gray-300">无数次实战</strong>中磨练出来的。</p>
  </div>
 </div>
 
@@ -6943,11 +6943,11 @@ export const blogPosts: BlogPost[] = [
 <div class="bg-gray-50 dark:bg-gray-900 dark:from-teal-900 dark:to-green-900 p-10 mb-10 border-2 border-gray-300 dark:border-gray-700">
  <h3 class="text-3xl font-bold mb-6 text-center text-gray-900 dark:text-gray-200">Important Reminders</h3>
  <div class="space-y-4 text-lg text-gray-800 dark:text-gray-200">
- <p>✦ Psychology development is a <strong class="text-gray-700 dark:text-gray-300">long-term process</strong>, cannot be achieved overnight.</p>
- <p>✦ Everyone's psychology is different, finding <strong class="text-gray-700 dark:text-gray-300">methods that suit you</strong> is most important.</p>
- <p>✦ <strong class="text-gray-700 dark:text-gray-300">Deliberate practice</strong> is more effective than simple repetition, training must be targeted.</p>
- <p>✦ Good psychology doesn't mean no emotions, but ability to <strong class="text-gray-700 dark:text-gray-300">identify and control</strong> them promptly.</p>
- <p>✦ Professional traders' psychology is forged through <strong class="text-gray-700 dark:text-gray-300">countless real battles</strong>.</p>
+ <p> Psychology development is a <strong class="text-gray-700 dark:text-gray-300">long-term process</strong>, cannot be achieved overnight.</p>
+ <p> Everyone's psychology is different, finding <strong class="text-gray-700 dark:text-gray-300">methods that suit you</strong> is most important.</p>
+ <p> <strong class="text-gray-700 dark:text-gray-300">Deliberate practice</strong> is more effective than simple repetition, training must be targeted.</p>
+ <p> Good psychology doesn't mean no emotions, but ability to <strong class="text-gray-700 dark:text-gray-300">identify and control</strong> them promptly.</p>
+ <p> Professional traders' psychology is forged through <strong class="text-gray-700 dark:text-gray-300">countless real battles</strong>.</p>
  </div>
 </div>
 

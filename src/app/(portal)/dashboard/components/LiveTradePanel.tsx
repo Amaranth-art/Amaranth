@@ -49,7 +49,7 @@ export default function LiveTradePanel({ tradingConfig }: LiveTradePanelProps) {
 
       if (response.ok && data.connected) {
         setBinanceConnected(true);
-        setBinanceStatus(`已连接 ✓ (余额: $${data.balance?.toFixed(2) || '0.00'})`);
+        setBinanceStatus(`已连接  (余额: $${data.balance?.toFixed(2) || '0.00'})`);
         setConnectionError('');
       } else {
         setBinanceConnected(false);
@@ -296,7 +296,7 @@ export default function LiveTradePanel({ tradingConfig }: LiveTradePanelProps) {
                 </button>
               </div>
               <p className="text-xs text-gray-500 dark:text-gray-400">
-                💡 提示: API密钥将保存在浏览器本地存储中。请确保您的API密钥具有<strong>期货交易权限</strong>，且在Binance后台启用了期货功能。
+                 提示: API密钥将保存在浏览器本地存储中。请确保您的API密钥具有<strong>期货交易权限</strong>，且在Binance后台启用了期货功能。
               </p>
             </div>
           </div>
@@ -369,7 +369,7 @@ export default function LiveTradePanel({ tradingConfig }: LiveTradePanelProps) {
                   {signal.type === 'long' && '做多 ▲'}
                   {signal.type === 'short' && '做空 ▼'}
                   {signal.type === 'none' && '无信号 —'}
-                  {signal.type === 'close' && '平仓 ✕'}
+                  {signal.type === 'close' && '平仓 '}
                 </span>
               </div>
               <div className="text-right">

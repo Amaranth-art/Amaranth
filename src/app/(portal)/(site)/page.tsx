@@ -132,7 +132,7 @@ const DummyContent = () => {
             {/* FX Killer */}
             <div className="bg-white dark:bg-gray-800 p-6 border-l-4 border-black dark:border-white">
               <h4 className="text-xl font-bold mb-4 text-black dark:text-white flex items-center gap-2">
-                <span className="text-2xl">✓</span> {t('comparison.fxkiller')}
+                <span className="text-2xl"></span> {t('comparison.fxkiller')}
               </h4>
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start gap-2">
@@ -169,7 +169,7 @@ const DummyContent = () => {
             {/* 传统培训 */}
             <div className="bg-gray-100 dark:bg-gray-700 p-6 border-l-4 border-gray-400">
               <h4 className="text-xl font-bold mb-4 text-gray-700 dark:text-gray-300 flex items-center gap-2">
-                <span className="text-2xl">✗</span> {t('comparison.traditional')}
+                <span className="text-2xl"></span> {t('comparison.traditional')}
               </h4>
               <ul className="space-y-3 text-gray-600 dark:text-gray-400">
                 <li className="flex items-start gap-2">
@@ -334,7 +334,7 @@ const DummyContent = () => {
           {/* 人群画像 */}
           <div className="bg-gradient-to-br from-black to-gray-800 dark:from-white dark:to-gray-200 p-8 border-2 border-black dark:border-white">
             <div className="text-white dark:text-black">
-              <div className="text-5xl mb-4">👤</div>
+              <div className="text-5xl mb-4"></div>
               <h3 className="text-2xl font-bold mb-6">{t('req.profile.title')}</h3>
               <div className="space-y-4">
                 <div className="border-l-4 border-white dark:border-black pl-4">
@@ -355,7 +355,7 @@ const DummyContent = () => {
 
           {/* 时间与环境 */}
           <div className="bg-white dark:bg-gray-800 p-8 border-2 border-gray-300 dark:border-gray-600">
-            <div className="text-5xl mb-4">⏰</div>
+            <div className="text-5xl mb-4"></div>
             <h3 className="text-2xl font-bold mb-6 text-black dark:text-white">{t('req.time.title')}</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
@@ -396,7 +396,7 @@ const DummyContent = () => {
 
           {/* 在线时间 */}
           <div className="bg-white dark:bg-gray-800 p-8 border-2 border-gray-300 dark:border-gray-600">
-            <div className="text-5xl mb-4">📅</div>
+            <div className="text-5xl mb-4"></div>
             <h3 className="text-2xl font-bold mb-6 text-black dark:text-white">{t('req.online.title')}</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
@@ -461,7 +461,7 @@ const DummyContent = () => {
             <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 overflow-hidden group hover:border-black dark:hover:border-white transition-all">
               <div className="relative h-64 bg-black dark:bg-gray-700 flex items-center justify-center">
                 <div className="text-center text-white">
-                  <div className="text-6xl mb-4">🎬</div>
+                  <div className="text-6xl mb-4"></div>
                   <p className="text-lg font-semibold">{t('video.doc1.title')}</p>
                   <p className="text-sm text-gray-400">{t('video.doc1.rating')}</p>
                 </div>
@@ -486,7 +486,7 @@ const DummyContent = () => {
             <div className="bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 overflow-hidden group hover:border-black dark:hover:border-white transition-all">
               <div className="relative h-64 bg-black dark:bg-gray-700 flex items-center justify-center">
                 <div className="text-center text-white">
-                  <div className="text-6xl mb-4">🎬</div>
+                  <div className="text-6xl mb-4"></div>
                   <p className="text-lg font-semibold">{t('video.doc2.title')}</p>
                   <p className="text-sm text-gray-400">{t('video.doc2.rating')}</p>
                 </div>

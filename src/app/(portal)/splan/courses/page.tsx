@@ -7,11 +7,35 @@ export default function CoursesPage() {
   const [isEmailModalOpen, setIsEmailModalOpen] = useState(false);
   return (
     <div className="min-h-screen bg-white dark:bg-gray-950">
-      {/* Header */}
-      <div className="border-b-2 border-gray-200 dark:border-gray-800">
-        <div className="max-w-6xl mx-auto px-6 py-12">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">培训体系</h1>
-          <p className="text-gray-600 dark:text-gray-400">30个工作日专业训练营，从新兵到战士的蜕变之路</p>
+      {/* Hero - Enhanced */}
+      <div className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white border-b-2 border-gray-800 overflow-hidden">
+        {/* Decorative Background */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-white blur-3xl"></div>
+        </div>
+
+        <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
+          <div className="inline-block px-6 py-2 bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
+            <span className="text-sm font-semibold tracking-wider">专业训练营</span>
+          </div>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <span className="font-black">培训体系</span>
+          </h1>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            30个工作日专业训练营，从新兵到战士的蜕变之路
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
+            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
+              <span className="text-white font-bold">30</span> 工作日
+            </div>
+            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
+              <span className="text-white font-bold">4</span> 训练阶段
+            </div>
+            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
+              <span className="text-white font-bold">&lt;18%</span> 通过率
+            </div>
+          </div>
         </div>
       </div>
 
@@ -33,7 +57,10 @@ export default function CoursesPage() {
 
         {/* Training Phases */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">训练阶段</h2>
+          <div className="flex items-center gap-4 mb-8">
+            <div className="w-1 h-16 bg-black dark:bg-white"></div>
+            <h2 className="text-4xl font-black text-gray-900 dark:text-white">训练阶段</h2>
+          </div>
           <div className="space-y-6">
 
             {/* Phase 1 */}
@@ -133,7 +160,10 @@ export default function CoursesPage() {
 
         {/* Rules */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">交易铁律</h2>
+          <div className="flex items-center gap-4 mb-8">
+            <div className="w-1 h-16 bg-black dark:bg-white"></div>
+            <h2 className="text-4xl font-black text-gray-900 dark:text-white">交易铁律</h2>
+          </div>
           <div className="bg-gray-50 dark:bg-gray-900 border-2 border-gray-300 dark:border-gray-700 p-6">
             <p className="text-gray-800 dark:text-gray-200 mb-4 leading-relaxed">
               交易纪律就像法律法规，触碰一次就会被标上不信任的标签，一旦触碰，就再也无法进入矩阵团队，第二次触碰红线，直接劝退离开团队。<strong>交易就像做手术，务必严肃，容不得任何不遵守规则的人。</strong>
@@ -162,7 +192,10 @@ export default function CoursesPage() {
 
         {/* Schedule */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">时间安排</h2>
+          <div className="flex items-center gap-4 mb-8">
+            <div className="w-1 h-16 bg-black dark:bg-white"></div>
+            <h2 className="text-4xl font-black text-gray-900 dark:text-white">时间安排</h2>
+          </div>
           <div className="bg-gray-50 dark:bg-gray-900 p-6 border-2 border-gray-200 dark:border-gray-700">
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
@@ -190,25 +223,31 @@ export default function CoursesPage() {
           </div>
         </section>
 
-        {/* CTA */}
-        <div className="bg-gray-50 dark:bg-gray-900 p-8 text-center border-2 border-gray-200 dark:border-gray-700">
-          <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">准备好接受挑战了吗？</h3>
-          <p className="text-gray-600 dark:text-gray-400 mb-6">
-            通过率 &lt; 18%。对你而言，要么是1%，要么是99%。
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/splan/psychology-test"
-              className="px-8 py-3 bg-white dark:bg-black border-2 border-black dark:border-white text-black dark:text-white font-semibold hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors"
-            >
-              交易心理测评
-            </a>
-            <button
-              onClick={() => setIsEmailModalOpen(true)}
-              className="px-8 py-3 bg-black dark:bg-white text-white dark:text-black font-semibold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
-            >
-              立即申请
-            </button>
+        {/* CTA - Enhanced */}
+        <div className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white p-12 text-center border-2 border-gray-800 overflow-hidden">
+          <div className="absolute inset-0 opacity-5">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-white blur-3xl"></div>
+            <div className="absolute bottom-0 left-0 w-64 h-64 bg-white blur-3xl"></div>
+          </div>
+          <div className="relative">
+            <h3 className="text-3xl font-black mb-4">准备好接受挑战了吗？</h3>
+            <p className="text-xl text-gray-300 mb-8">
+              通过率 &lt; 18%。对你而言，要么是1%，要么是99%。
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="/splan/psychology-test"
+                className="px-8 py-4 bg-white/10 border-2 border-white/20 text-white font-bold hover:bg-white hover:text-black transition-colors backdrop-blur-sm"
+              >
+                交易心理测评
+              </a>
+              <button
+                onClick={() => setIsEmailModalOpen(true)}
+                className="px-8 py-4 bg-white text-black font-bold border-2 border-white hover:bg-transparent hover:text-white transition-colors"
+              >
+                立即申请
+              </button>
+            </div>
           </div>
         </div>
 

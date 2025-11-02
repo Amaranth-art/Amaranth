@@ -331,12 +331,12 @@ export default function HistoryPage() {
                         {(trade.pnlPercent || 0) >= 0 ? '+' : ''}{trade.pnlPercent?.toFixed(2) || '0.00'}%
                       </td>
                       <td className="px-4 py-3 text-xs text-gray-600 dark:text-gray-400">
-                        {trade.exitReason === 'stop_loss' && '🛑 Stop Loss'}
-                        {trade.exitReason === 'take_profit' && '🎯 Take Profit'}
-                        {trade.exitReason === 'trailing_stop' && '📈 Trailing Stop'}
-                        {trade.exitReason === 'signal' && '🔄 Opposite Signal'}
-                        {trade.exitReason === 'daily_limit' && '⚠️ Daily Limit'}
-                        {trade.exitReason === 'drawdown_limit' && '⛔ Drawdown Limit'}
+                        {trade.exitReason === 'stop_loss' && ' Stop Loss'}
+                        {trade.exitReason === 'take_profit' && ' Take Profit'}
+                        {trade.exitReason === 'trailing_stop' && ' Trailing Stop'}
+                        {trade.exitReason === 'signal' && ' Opposite Signal'}
+                        {trade.exitReason === 'daily_limit' && ' Daily Limit'}
+                        {trade.exitReason === 'drawdown_limit' && ' Drawdown Limit'}
                       </td>
                     </tr>
                   );

@@ -121,7 +121,7 @@ export default function JoinUsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <a href="https://www.bilibili.com/video/BV19a411X7eY" target="_blank" rel="noopener noreferrer"
                className="group relative bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 p-8 border-2 border-gray-200 dark:border-gray-700 hover:border-black dark:hover:border-white transition-all">
-              <div className="text-5xl mb-4">🎬</div>
+              <div className="text-5xl mb-4"></div>
               <div className="inline-block px-3 py-1 bg-black dark:bg-white text-white dark:text-black text-xs font-bold mb-3">
                 {t('joinus.videos.doc1.rating')}
               </div>
@@ -135,7 +135,7 @@ export default function JoinUsPage() {
             </a>
             <a href="https://www.bilibili.com/video/BV1FZ4y1o734" target="_blank" rel="noopener noreferrer"
                className="group relative bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 p-8 border-2 border-gray-200 dark:border-gray-700 hover:border-black dark:hover:border-white transition-all">
-              <div className="text-5xl mb-4">🎬</div>
+              <div className="text-5xl mb-4"></div>
               <div className="inline-block px-3 py-1 bg-black dark:bg-white text-white dark:text-black text-xs font-bold mb-3">
                 {t('joinus.videos.doc2.rating')}
               </div>
@@ -174,7 +174,7 @@ export default function JoinUsPage() {
               <div className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 p-8 border-2 border-gray-200 dark:border-gray-700">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-12 h-12 bg-black dark:bg-white flex items-center justify-center text-2xl">
-                    👤
+                    
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">{t('joinus.profile.basic.title')}</h3>
                 </div>
@@ -201,7 +201,7 @@ export default function JoinUsPage() {
               <div className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 p-8 border-2 border-gray-200 dark:border-gray-700">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-12 h-12 bg-black dark:bg-white flex items-center justify-center text-2xl">
-                    ⏰
+                    
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">{t('joinus.profile.time.title')}</h3>
                 </div>
@@ -359,23 +359,23 @@ export default function JoinUsPage() {
                 <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">{t('joinus.rules.trading.title')}</h3>
                 <ul className="space-y-3 text-gray-800 dark:text-gray-200">
                   <li className="flex items-start gap-2">
-                    <span className="text-red-500 font-bold">✗</span>
+                    <span className="text-red-500 font-bold"></span>
                     {t('joinus.rules.trading.1')}
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-red-500 font-bold">✗</span>
+                    <span className="text-red-500 font-bold"></span>
                     {t('joinus.rules.trading.2')}
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-red-500 font-bold">✗</span>
+                    <span className="text-red-500 font-bold"></span>
                     {t('joinus.rules.trading.3')}
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-red-500 font-bold">✗</span>
+                    <span className="text-red-500 font-bold"></span>
                     {t('joinus.rules.trading.4')}
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-red-500 font-bold">✗</span>
+                    <span className="text-red-500 font-bold"></span>
                     {t('joinus.rules.trading.5')}
                   </li>
                 </ul>
@@ -384,11 +384,11 @@ export default function JoinUsPage() {
                 <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">{t('joinus.rules.meeting.title')}</h3>
                 <ul className="space-y-3 text-gray-800 dark:text-gray-200">
                   <li className="flex items-start gap-2">
-                    <span className="text-red-500 font-bold">✗</span>
+                    <span className="text-red-500 font-bold"></span>
                     {t('joinus.rules.meeting.1')}
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-red-500 font-bold">✗</span>
+                    <span className="text-red-500 font-bold"></span>
                     {t('joinus.rules.meeting.2')}
                   </li>
                 </ul>

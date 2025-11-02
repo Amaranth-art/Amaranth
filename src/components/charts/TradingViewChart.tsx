@@ -78,7 +78,7 @@ export default function TradingViewChart({ candles, trades, height = 500 }: Trad
           position: trade.side === 'long' ? 'aboveBar' : 'belowBar',
           color: isWin ? '#6366f1' : '#9ca3af',
           shape: 'circle',
-          text: `EXIT @${trade.exitPrice.toFixed(2)} ${isWin ? '✓' : '✗'} ${trade.pnl?.toFixed(2) || '0'}`,
+          text: `EXIT @${trade.exitPrice.toFixed(2)} ${isWin ? '' : ''} ${trade.pnl?.toFixed(2) || '0'}`,
         });
       }
     });

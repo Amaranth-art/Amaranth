@@ -141,7 +141,7 @@ export default function StrategyConfig({ config, onConfigChange }: StrategyConfi
           >
             <div className="flex items-center justify-between mb-2">
               <h3 className="font-bold text-gray-900 dark:text-white">保守配置</h3>
-              <span className="text-2xl group-hover:scale-110 transition-transform">🛡️</span>
+              <span className="text-2xl group-hover:scale-110 transition-transform"></span>
             </div>
             <p className="text-xs text-gray-600 dark:text-gray-400">
               低风险，稳定盈利，适合新手
@@ -159,7 +159,7 @@ export default function StrategyConfig({ config, onConfigChange }: StrategyConfi
           >
             <div className="flex items-center justify-between mb-2">
               <h3 className="font-bold text-gray-900 dark:text-white">适中配置</h3>
-              <span className="text-2xl group-hover:scale-110 transition-transform">⚖️</span>
+              <span className="text-2xl group-hover:scale-110 transition-transform"></span>
             </div>
             <p className="text-xs text-gray-600 dark:text-gray-400">
               平衡风险收益，推荐使用
@@ -177,7 +177,7 @@ export default function StrategyConfig({ config, onConfigChange }: StrategyConfi
           >
             <div className="flex items-center justify-between mb-2">
               <h3 className="font-bold text-gray-900 dark:text-white">激进配置</h3>
-              <span className="text-2xl group-hover:scale-110 transition-transform">🚀</span>
+              <span className="text-2xl group-hover:scale-110 transition-transform"></span>
             </div>
             <p className="text-xs text-gray-600 dark:text-gray-400">
               高风险高收益，谨慎使用

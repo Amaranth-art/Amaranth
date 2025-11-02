@@ -40,16 +40,36 @@ export default function BlogPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 pt-20">
-      {/* Hero Section */}
-      <div className="bg-white dark:bg-gray-900 border-b-2 border-gray-200 dark:border-gray-800 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-            {t('blog.title')}
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+      {/* Hero Section - Enhanced */}
+      <div className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white border-b-2 border-gray-800 overflow-hidden">
+        {/* Decorative Background */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-white blur-3xl"></div>
+        </div>
+
+        <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
+          <div className="inline-block px-6 py-2 bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
+            <span className="text-sm font-semibold tracking-wider">{t('blog.hero.badge') || '专业交易知识'}</span>
+          </div>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <span className="font-black">{t('blog.title')}</span>
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             {t('blog.subtitle')}
           </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
+            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
+              <span className="text-white font-bold">{blogPosts.length}</span> {language === 'zh' ? '篇文章' : 'Articles'}
+            </div>
+            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
+              <span className="text-white font-bold">{categories.length - 1}</span> {language === 'zh' ? '个分类' : 'Categories'}
+            </div>
+            <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm">
+              <span className="text-white font-bold">{blogPosts.filter(p => p.featured).length}</span> {language === 'zh' ? '精选推荐' : 'Featured'}
+            </div>
+          </div>
         </div>
       </div>
 

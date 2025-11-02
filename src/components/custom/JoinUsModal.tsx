@@ -94,14 +94,14 @@ export default function JoinUsModal({ isOpen, onClose }: JoinUsModalProps) {
                     }}
                     className="w-full py-3 px-6 bg-black dark:bg-white text-white dark:text-black font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition-all"
                   >
-                    📧 联系团队长
+                     联系团队长
                   </button>
                   <a
                     href="/splan/psychology-test"
                     onClick={onClose}
                     className="w-full py-3 px-6 bg-white dark:bg-gray-700 border-2 border-black dark:border-white text-black dark:text-white font-semibold hover:bg-gray-100 dark:hover:bg-gray-600 transition-all"
                   >
-                    🧠 完成心理测评
+                     完成心理测评
                   </a>
                 </div>
 
