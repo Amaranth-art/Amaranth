@@ -54,25 +54,29 @@ export default function PositionCalculatorPage() {
         const forexData = await forexResponse.json();
         setExchangeRates(forexData.rates);
 
-        // Fetch gold price from metals-api (free tier)
+        // Fetch gold price from Coinbase public API (no key required)
         try {
-          const goldResponse = await fetch('https://api.metals.live/v1/spot/gold');
+          const goldResponse = await fetch('https://api.coinbase.com/v2/exchange-rates?currency=XAU');
           if (goldResponse.ok) {
             const goldData = await goldResponse.json();
-            // metals.live returns price in USD per troy ounce
-            setGoldPrice(goldData[0]?.price || 2650); // Current approximate gold price as fallback
+            // Coinbase returns 1 XAU = X USD, we need to invert
+            const xauToUsd = parseFloat(goldData.data?.rates?.USD || '0');
+            if (xauToUsd > 0) {
+              // Coinbase gives troy ounce price
+              setGoldPrice(xauToUsd);
+            } else {
+              setGoldPrice(2650); // Fallback
+            }
           } else {
-            // Fallback to approximate current gold price
             setGoldPrice(2650);
           }
-        } catch (goldError) {
-          console.error('Error fetching gold price:', goldError);
-          setGoldPrice(2650); // Fallback
+        } catch {
+          // Fallback to approximate current gold price if fetch fails
+          setGoldPrice(2650);
         }
 
         setRatesLoading(false);
-      } catch (error) {
-        console.error('Error fetching rates:', error);
+      } catch {
         setRatesError(isZh ? '无法获取实时汇率，使用默认值' : 'Cannot fetch real-time rates, using defaults');
         setRatesLoading(false);
 
