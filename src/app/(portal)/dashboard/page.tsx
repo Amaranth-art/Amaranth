@@ -11,8 +11,8 @@ import BrandName from '@/components/custom/BrandName';
 import type { TradingConfig } from '@/lib/trading/types';
 
 const defaultConfig: TradingConfig = {
-  symbol: 'XAUUSDT',
-  interval: '1m',
+  symbol: 'BTCUSDT',
+  interval: '15m',
   strategy: {
     aggressiveness: 2,
     trailingActivation: 0.8,

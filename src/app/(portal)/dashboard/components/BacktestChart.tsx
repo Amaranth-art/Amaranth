@@ -45,6 +45,7 @@ export default function BacktestChart({ candles, trades, symbol }: BacktestChart
     chartRef.current = chart;
 
     // Add candlestick series
+    // Note: Using type assertion because TypeScript definitions may be incomplete
     const candlestickSeries = (chart as any).addCandlestickSeries({
       upColor: '#26a69a',
       downColor: '#ef5350',

@@ -30,7 +30,8 @@ export default function BacktestProgress({ isOpen, stage, progress, message }: B
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+          className="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-50"
+          style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0 }}
         >
           <motion.div
             initial={{ scale: 0.9, opacity: 0 }}

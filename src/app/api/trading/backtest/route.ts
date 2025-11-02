@@ -6,7 +6,7 @@ import type { TradingConfig, Candle } from '@/lib/trading/types';
 /**
  * Fetch with retry logic and longer timeout
  */
-async function fetchWithRetry(url: string, retries = 3, timeout = 30000): Promise<Response> {
+async function fetchWithRetry(url: string, retries = 2, timeout = 5000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
     try {
       const controller = new AbortController();
@@ -64,7 +64,7 @@ async function fetchBinancePublicCandles(
         const url = `${baseUrl}/fapi/v1/klines?symbol=${symbol}&interval=${interval}&startTime=${currentStart}&endTime=${endTime}&limit=${limit}`;
 
         console.log(`Fetching from ${baseUrl}...`);
-        const response = await fetchWithRetry(url, 3, 30000);
+        const response = await fetchWithRetry(url, 2, 5000);
 
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}: ${response.statusText}`);

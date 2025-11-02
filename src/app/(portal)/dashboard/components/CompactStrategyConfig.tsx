@@ -37,13 +37,13 @@ export default function CompactStrategyConfig({
         }
       } catch (error) {
         console.error('Failed to fetch symbols:', error);
-        // Fallback to default symbols
+        // Fallback to default symbols (only real Binance futures contracts)
         setSymbols([
-          { symbol: 'XAUUSDT', baseAsset: 'XAU', quoteAsset: 'USDT' },
           { symbol: 'BTCUSDT', baseAsset: 'BTC', quoteAsset: 'USDT' },
           { symbol: 'ETHUSDT', baseAsset: 'ETH', quoteAsset: 'USDT' },
           { symbol: 'BNBUSDT', baseAsset: 'BNB', quoteAsset: 'USDT' },
           { symbol: 'SOLUSDT', baseAsset: 'SOL', quoteAsset: 'USDT' },
+          { symbol: 'ADAUSDT', baseAsset: 'ADA', quoteAsset: 'USDT' },
         ]);
       } finally {
         setLoadingSymbols(false);
