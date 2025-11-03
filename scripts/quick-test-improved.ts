@@ -94,9 +94,12 @@ async function quickTest() {
   }
 
   console.log('\n📊 详细分析:');
-  console.log(`- 平均每笔盈利: $${(result.totalProfit || 0) / Math.max(result.winningTrades || 1, 1)}`);
-  console.log(`- 平均每笔亏损: $${Math.abs((result.totalLoss || 0) / Math.max(result.losingTrades || 1, 1))}`);
-  console.log(`- R倍数期望: ${((result.winningTrades || 0) / result.totalTrades * (result.totalProfit || 0) / Math.max(result.winningTrades || 1, 1) - (result.losingTrades || 0) / result.totalTrades * Math.abs((result.totalLoss || 0) / Math.max(result.losingTrades || 1, 1))).toFixed(2)}`);
+  console.log(`- 平均每笔盈利: $${(result.averageWin || 0).toFixed(2)}`);
+  console.log(`- 平均每笔亏损: $${Math.abs(result.averageLoss || 0).toFixed(2)}`);
+  const winRate = result.winRate / 100;
+  const loseRate = 1 - winRate;
+  const expectedValue = winRate * (result.averageWin || 0) + loseRate * (result.averageLoss || 0);
+  console.log(`- 期望收益: $${expectedValue.toFixed(2)}`);
 }
 
 quickTest().catch(console.error);
