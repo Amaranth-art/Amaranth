@@ -68,7 +68,7 @@ async function test20k() {
   console.log(`胜率: ${((result.winningTrades || 0) / result.totalTrades * 100).toFixed(2)}%`);
   console.log(`盈亏比: ${result.profitFactor.toFixed(2)}`);
   console.log(`总收益: ${(result.totalPnlPercent || 0).toFixed(2)}%`);
-  console.log(`最终资金: $${(result.finalCapital || initialCapital).toFixed(2)}`);
+  console.log(`最终资金: $${(result.endCapital || initialCapital).toFixed(2)}`);
   console.log(`最大回撤: ${(result.maxDrawdownPercent || 0).toFixed(2)}%`);
   console.log('='.repeat(80));
 
