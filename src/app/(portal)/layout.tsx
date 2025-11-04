@@ -72,9 +72,10 @@ export default function PortalLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN" className={inter.variable} suppressHydrationWarning>
+    <html lang="zh-CN" className={inter.variable} suppressHydrationWarning style={{ colorScheme: 'light dark' }}>
       <head>
         <meta name="baidu-site-verification" content="codeva-kDRjETSiUu" />
+        <meta name="color-scheme" content="light dark" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -82,6 +83,9 @@ export default function PortalLayout({
                 const theme = localStorage.getItem('theme');
                 if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
                   document.documentElement.classList.add('dark');
+                  document.documentElement.style.colorScheme = 'dark';
+                } else {
+                  document.documentElement.style.colorScheme = 'light';
                 }
               } catch (e) {}
             `,
