@@ -14,7 +14,7 @@ export default function ScrollProgress() {
 
   return (
     <motion.div
-      className="fixed top-0 left-0 right-0 h-1 bg-black dark:bg-white origin-left z-50"
+      className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-black via-gray-600 to-black dark:from-white dark:via-gray-400 dark:to-white origin-left z-50 shadow-lg"
       style={{ scaleX }}
     />
   );

@@ -11,7 +11,7 @@ export default function PageLoader() {
     // 页面加载完成后隐藏加载动画
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1500); // 1.5秒后消失
+    }, 2500); // 2.5秒后消失
 
     return () => clearTimeout(timer);
   }, []);

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 // 交互式网格背景
 export default function GridBackground() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const mousePositionRef = useRef({ x: 0, y: 0 });
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -23,16 +23,16 @@ export default function GridBackground() {
     resizeCanvas();
     window.addEventListener('resize', resizeCanvas);
 
-    // 获取当前主题
-    const isDark = document.documentElement.classList.contains('dark');
-
     // 网格参数
-    const gridSpacing = 50; // 网格间距
-    const dotRadius = 1.5; // 点的半径
-    const interactionRadius = 150; // 鼠标影响范围
+    const gridSpacing = 40; // 网格间距
+    const dotRadius = 2; // 点的半径
+    const interactionRadius = 200; // 鼠标影响范围
 
     // 绘制网格
     const drawGrid = () => {
+      // 动态获取当前主题
+      const isDark = document.documentElement.classList.contains('dark');
+
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       // 计算网格点的行列数
@@ -46,18 +46,18 @@ export default function GridBackground() {
           const y = j * gridSpacing;
 
           // 计算与鼠标的距离
-          const dx = mousePosition.x - x;
-          const dy = mousePosition.y - y;
+          const dx = mousePositionRef.current.x - x;
+          const dy = mousePositionRef.current.y - y;
           const distance = Math.sqrt(dx * dx + dy * dy);
 
           // 根据距离调整点的大小和透明度
           let size = dotRadius;
-          let opacity = 0.2;
+          let opacity = 0.3;
 
           if (distance < interactionRadius) {
             const factor = 1 - distance / interactionRadius;
-            size = dotRadius + factor * 2;
-            opacity = 0.2 + factor * 0.4;
+            size = dotRadius + factor * 3;
+            opacity = 0.3 + factor * 0.5;
           }
 
           // 绘制点
@@ -81,7 +81,7 @@ export default function GridBackground() {
 
     // 监听鼠标移动
     const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
+      mousePositionRef.current = { x: e.clientX, y: e.clientY };
     };
     window.addEventListener('mousemove', handleMouseMove);
 
@@ -91,7 +91,7 @@ export default function GridBackground() {
       window.removeEventListener('mousemove', handleMouseMove);
       cancelAnimationFrame(animationId);
     };
-  }, [mousePosition]);
+  }, []);
 
   return (
     <motion.canvas

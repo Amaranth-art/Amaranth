@@ -36,8 +36,8 @@ export default function MouseFollower() {
       <motion.div
         className="pointer-events-none fixed z-50 mix-blend-difference"
         animate={{
-          x: mousePosition.x - 20,
-          y: mousePosition.y - 20,
+          x: mousePosition.x - 24,
+          y: mousePosition.y - 24,
         }}
         transition={{
           type: "spring",
@@ -46,15 +46,15 @@ export default function MouseFollower() {
           mass: 0.5
         }}
       >
-        <div className="h-10 w-10 rounded-full border-2 border-white/30" />
+        <div className="h-12 w-12 rounded-full border-2 border-white/50" />
       </motion.div>
 
       {/* 内圈小点 */}
       <motion.div
         className="pointer-events-none fixed z-50"
         animate={{
-          x: mousePosition.x - 4,
-          y: mousePosition.y - 4,
+          x: mousePosition.x - 6,
+          y: mousePosition.y - 6,
         }}
         transition={{
           type: "spring",
@@ -63,7 +63,7 @@ export default function MouseFollower() {
           mass: 0.2
         }}
       >
-        <div className="h-2 w-2 rounded-full bg-black dark:bg-white" />
+        <div className="h-3 w-3 rounded-full bg-black dark:bg-white" />
       </motion.div>
     </>
   );
