@@ -25,7 +25,7 @@ export default async function BrokerSelectionGuidePage({ params }: { params: Pro
   const isZh = lang === 'zh';
 
   return (
-    <EducationPageTemplate content={content}>
+    <EducationPageTemplate content={content} language={lang}>
       {/* Section 1: Why Important */}
       <section id="why-important" className="mb-16 scroll-mt-20">
         <h2 className="text-3xl font-black mb-6 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">

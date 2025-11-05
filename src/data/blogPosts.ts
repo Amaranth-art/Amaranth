@@ -552,242 +552,486 @@ export const blogPosts: BlogPost[] = [
 <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="font-bold">•</span><span>如有虚假信息，一经发现立即淘汰</span></li>
 </ul>
 </div>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">About FX Killer</h1>
+ en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">About FX Killer (FX Killer)</h1>
 
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">FX Killer</strong> is a military-style training camp focused on selecting and cultivating forex traders.</p>
+<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">FX Killer is a military-style training camp focused on selecting and cultivating top forex traders. We don't pursue quantity, only cultivating those truly suited. This is a strict, high-intensity, high-elimination professional training program.</p>
 
-<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-6 border-2 border-black dark:border-white">
- <p class="text-lg leading-relaxed mb-3 text-white dark:text-black">Core Philosophy</p>
- <p class="text-2xl font-bold mb-4 text-white dark:text-black">Cultivating those truly suited, retaining the few, advising the majority to pursue other paths</p>
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-3xl font-bold mb-4 text-white dark:text-black text-center">Cultivating those truly suited, retaining the few, advising the majority</p>
+<p class="text-lg text-center text-white dark:text-black">Our mission is not to make everyone a trader, but to find those who truly possess trading talent and psychological qualities</p>
 </div>
 
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Core Data</h2>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">What is FX Killer?</h2>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">We are a training organization focused on selecting and cultivating elite forex traders. We are committed to identifying, in the shortest time possible, the few individuals from a large population who are suited for forex trading, and providing them with cultivation and support.</p>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Simply put, we are recruiting forex traders—but not experienced traders with years in the field. Excellent traders don't circulate in the job market; they can only be cultivated personally. In other words, we personally select and train our traders, committed to developing qualified traders into fund managers.</p>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Within 45 days (30 working days), we will determine whether newcomers have the potential to become forex traders:</h3>
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
- <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">1</span></div>
- <p class="text-gray-600 dark:text-gray-400 leading-relaxed">First 20 Working Days</p>
- <p class="text-xl font-bold mb-3 text-black dark:text-white">Including 5 days of basic trading rules learning and 15 days of profit practice</p>
- </div>
- <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Final 10 Working Days</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Continuous profit assessment testing</p>
- </div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">30</span></div>
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Working Days</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Complete training cycle</p>
+</div>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">10</span></div>
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Pass Rate</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">10%-15%</p>
+</div>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">90</span></div>
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Maximum Profit Share</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">60%-90%</p>
+</div>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">0</span></div>
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Training Cost</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Completely free</p>
+</div>
 </div>
 
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Our Training Philosophy</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">FX Killer adopts a military-style management model because we know: trading is a psychological war requiring extreme discipline, execution, and mental strength. Our training isn't about teaching you how to get rich quick, but cultivating you to become a professional, sustainable trader.</p>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">If Not Suited</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">We will be honest with you and advise you never to enter secondary markets</p>
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">1</span>
 </div>
-
-<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">If Suited</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">We will allocate capital to you, recruit you into our organization starting as an independent trader</p>
-</div>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Who is Suited?</h2>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">In the world of forex trading, some people are inherently unsuited. They rush for success yet don't know what they truly seek; they glance at surfaces then stop, unable to perceive deeper truths. Or perhaps they should choose those"stable" positions—going through the motions, living predictable days.</p>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">This isn't disparagement, but reality: forex trading is a battlefield requiring composure, insight, and resilience. If this describes you, other industries may better suit your strengths.</strong></p>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Basic Requirements</h3>
-
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Associate Degree or higher, under 35 years old</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Serious, meticulous, patient, psychologically healthy</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Continuous 30 working days (approx. 45 days), Windows computer</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Independent trading environment</span></li>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Strict Selection</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">Not everyone is suited to be a trader. Through multi-dimensional assessment, we screen out most unsuited people before training.</p>
+<ul class="space-y-2 mt-4">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Psychological assessment</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Background check</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Interview communication</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Basic ability test</span></li>
 </ul>
+</div>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Time Requirements</h3>
-
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Monday to Friday, minimum guaranteed online 1:30 PM - 9:30 PM</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Beijing Time 8:00 PM team leader conference room debrief</span></li>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">2</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Systematic Training</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">We provide a complete trading system, from rules learning to practical exercises, each step has clear standards and assessment.</p>
+<ul class="space-y-2 mt-4">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>15 standard entry points</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strict stop-loss rules</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Money management system</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Emotional control training</span></li>
 </ul>
+</div>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Important Reminder</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Everyone has only ONE opportunity to enter</strong></p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Please apply only after fully understanding and confirming you meet ALL requirements.</p>
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">3</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Continuous Support</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-2">After passing assessment, you become part of the team, receiving continuous support and resources to grow together.</p>
+<ul class="space-y-2 mt-4">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Daily debrief meetings</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>One-on-one mentorship</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Team knowledge sharing</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Capital allocation increases</span></li>
+</ul>
+</div>
 </div>
 
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">30-Day Selection Process</h2>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Development Plan (30 Working Days)</h2>
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">The entire training process is divided into four stages, each with clear objectives and elimination criteria. This is not an easy process, but if you can persist and pass the assessment, you'll earn the qualification to become a professional trader.</p>
+
+<div class="overflow-x-auto mb-8">
+<table class="w-full border-2 border-black dark:border-white">
+<thead>
+<tr>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Stage</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Time</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Content</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Goal</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Elimination Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Stage 1</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Days 1-5</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Rules Learning</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">15 standard entry points without errors</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Fail assessment within 5 days</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Stage 2</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Days 6-20</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Profit Practice</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Find suitable pairs, stable profit</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">3 consecutive loss days</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Stage 3</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Days 21-30</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Profit Assessment</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">10 consecutive profitable days</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Not completed within 30 days</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Live Stage</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">20 working days</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Small-amount live</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Control drawdown, stable profit</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Daily drawdown >20%</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Detailed Stage Descriptions</h2>
+
+<div class="space-y-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">📚 Stage 1: Rules Learning (Days 1-5)</p>
+<p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">This is the foundation stage, where you need to learn and master our trading system. This system has been battle-tested over years and includes 15 standard entry points.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div>
+<p class="font-bold text-black dark:text-white mb-2">Learning Content:</p>
+<ul class="space-y-1">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>15 standard entry point identification</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Stop-loss placement rules</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Position management methods</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trading platform operations</span></li>
+</ul>
+</div>
+<div>
+<p class="font-bold text-black dark:text-white mb-2">Assessment Standards:</p>
+<ul class="space-y-1">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Written test: 15 entry point identification, error rate <10%</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Practical: Demo account orders, no operation errors</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Time limit: Must pass within 5 days</span></li>
+</ul>
+</div>
+</div>
+</div>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Days 1-5 | Complete Rules Learning</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Quickly familiarize yourself with basic trading system rules</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Phase 1 rules assessment requirement:</strong> 15 standard entry points without errors</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white"> Important:</strong> Failure to complete rules assessment within 5 working days results in discretionary dismissal</p>
- </div>
-
- <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Days 6-20 | Profit Practice</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Don't overthink; find currency pairs suitable for you</p>
- <ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Week 1: Practice extensively, find suitable currency pairs (start with 4-6 for observation, stabilize to 2 trading pairs)</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Week 2: Practice according to profit assessment standards: no missed entries, no missed exits, no losses</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Week 3: Must avoid elementary mistakes, must achieve operational consistency</span></li>
- </ul>
- </div>
-
- <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Days 21-30 | Continuous Profit Assessment</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">This is the final assessment phase, requiring 10 consecutive working days of stable profitability</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Profit assessment requirement:</strong> 10 consecutive working days, daily achievement for selected trading pairs—no missed entries, no missed exits, no losses</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white"> Important:</strong> Failure to complete 10 consecutive profitable days within 30 working days results in dismissal</p>
- </div>
-
- <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Small-Amount Live 20 Working Days</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Small-amount live trading still has only one chance; exceeding drawdown requirements is considered failure. Please cherish it.</p>
- <ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Small-amount live trading maintains profit assessment requirements: 1-3 currency pairs, no missed entries, no missed exits, no losses</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Those who feel their profitability is unstable can apply for 1-4 weeks of small-amount simulation consolidation</span></li>
- </ul>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white"> Important:</strong> Small-amount live account: daily drawdown not exceeding 20%, weekly total drawdown not exceeding 30%, exceeding results in dismissal</p>
- </div>
-
- <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-6 border-2 border-black dark:border-white">
- <p class="text-lg leading-relaxed mb-3 text-white dark:text-black">Professional Trader Phase | Large-Amount Matrix</p>
- <p class="text-2xl font-bold mb-4 text-white dark:text-black">After 20 working days of small-amount live trading consolidation without errors, enter large-amount matrix</p>
- <ul class="space-y-3 mb-4">
- <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="text-white dark:text-black font-bold">•</span><span> Complete freedom in working hours, no daily trading volume limits, just maintain the baseline of no daily losses</span></li>
- <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="text-white dark:text-black font-bold">•</span><span> Capital Scale & Position: As trading ability stabilizes, position size gradually increases</span></li>
- <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="text-white dark:text-black font-bold">•</span><span> Small-amount live: $20 position, $100 capital allocation</span></li>
- <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="text-white dark:text-black font-bold">•</span><span> Large-amount live: Determined based on small-amount live performance</span></li>
- <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="text-white dark:text-black font-bold">•</span><span> Position growth: As profit curve rises, gradually increase position scale and profit share ratio</span></li>
- </ul>
- </div>
+<p class="text-xl font-bold mb-4 text-black dark:text-white">💹 Stage 2: Profit Practice (Days 6-20)</p>
+<p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">This is the most critical stage, where you need to prove you can profit consistently in a demo environment. This stage has the highest elimination rate, about 70% are eliminated here.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div>
+<p class="font-bold text-black dark:text-white mb-2">Training Objectives:</p>
+<ul class="space-y-1">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Find suitable trading pairs</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Establish trading rhythm</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Develop emotional control</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Form stable profit pattern</span></li>
+</ul>
 </div>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">About Income & Profit Share</h2>
+<div>
+<p class="font-bold text-black dark:text-white mb-2">Elimination Reasons:</p>
+<ul class="space-y-1">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>3 consecutive loss days (direct elimination)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Violate trading rules (one-time elimination)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Emotional loss of control causing major loss</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Absence or tardiness exceeding 3 times</span></li>
+</ul>
+</div>
+</div>
+</div>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">To be frank</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Any profit-oriented enterprise won't do business at a loss. Even hiring an inexperienced graduate at high salary stems from government subsidies or judgment of that person's potential. In our minimalist industry, all value comes from market price differences—simple, direct, brutal.</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Before you prove profitability (pass assessment), we won't invest a penny.</strong> After passing, your actual income will never exceed the"spoils" you capture in the"battlefield" (secondary market).</p>
+<p class="text-xl font-bold mb-4 text-black dark:text-white">🎯 Stage 3: Profit Assessment (Days 21-30)</p>
+<p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">This is the final assessment stage, where you need to prove you can profit consistently for 10 consecutive days. This isn't about profit amount, but stability and execution.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div>
+<p class="font-bold text-black dark:text-white mb-2">Assessment Requirements:</p>
+<ul class="space-y-1">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>10 consecutive profitable days (amount unlimited)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Minimum 3 trades per day</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strictly follow trading rules</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Daily drawdown within 10%</span></li>
+</ul>
 </div>
-
-<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-6 border-2 border-black dark:border-white">
- <p class="text-lg leading-relaxed mb-3 text-white dark:text-black">Profit Share Ratio</p>
- <p class="text-lg leading-relaxed mb-3 text-white dark:text-black">The spoils you capture on the battlefield—<strong class="font-bold text-black dark:text-white">at least 60% belong to you personally</strong>. As your abilities improve, this ratio increases, <strong class="font-bold text-black dark:text-white">reaching up to 90% and beyond</strong>.</p>
- <p class="text-2xl font-bold mb-4 text-white dark:text-black">The rest belongs to us, so we will cultivate every trainee wholeheartedly—the more spoils you get, the more we get. We are comrades on the same boat, sharing honor and disgrace!</p>
+<div>
+<p class="font-bold text-black dark:text-white mb-2">Passing Standards:</p>
+<ul class="space-y-1">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>No loss days within 10 days</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>100% rule execution rate</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Emotional control score >85</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Good team evaluation</span></li>
+</ul>
 </div>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Pass Rate</h3>
+</div>
+</div>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">10% - 15%</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">The final pass rate is only 10%-15%. We cultivate those truly suited, retaining the few, advising the majority to pursue other paths.</p>
+<p class="text-xl font-bold mb-4 text-black dark:text-white">💰 Live Stage: Small-Amount Live (20 working days)</p>
+<p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">After passing the 30-day assessment, you enter the live stage. This is real money trading, and though amounts are small, psychological pressure is completely different.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div>
+<p class="font-bold text-black dark:text-white mb-2">Live Conditions:</p>
+<ul class="space-y-1">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Initial capital: $100</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Position size: $20</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Profit share: 60%</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Assessment period: 20 working days</span></li>
+</ul>
+</div>
+<div>
+<p class="font-bold text-black dark:text-white mb-2">Risk Control Requirements:</p>
+<ul class="space-y-1">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Daily drawdown not exceeding 20%</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Weekly profit target: >5%</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Consecutive losses not exceeding 2 days</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>After passing, enter official team</span></li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Application Requirements Comparison</h2>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Trading Iron Laws</h2>
+<div class="overflow-x-auto mb-8">
+<table class="w-full border-2 border-black dark:border-white">
+<thead>
+<tr>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Category</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Hard Requirements</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Soft Requirements</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Required Documents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Education & Age</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Associate degree+, under 35</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Strong learning ability, fast at acquiring new knowledge</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Education certificate, ID</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Personality Traits</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Serious, meticulous, patient, psychologically healthy</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Strong stress tolerance, emotionally stable</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Pass psychological assessment</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Time Investment</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Continuous 30 working days, 8 hours daily</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Full commitment, no other work</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Time commitment agreement</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Hardware Equipment</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Windows computer, stable internet, quiet environment</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Independent space, no disturbances</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Equipment test screenshot</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Financial Status</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">No financial pressure during training period</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Able to support oneself for 2 months</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Financial status statement</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Income & Development Path</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">After passing the 30-day assessment and 20-day small-amount live stage, you officially become a professional trader. Your income comes entirely from trading profits, with no base salary or guaranteed income.</p>
+
+<div class="overflow-x-auto mb-8">
+<table class="w-full border-2 border-black dark:border-white">
+<thead>
+<tr>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Stage</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Capital Allocation</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Position Size</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Profit Share</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">Working Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Small-Amount Live</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$100</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$20/lot</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">60%</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">8 hours/day</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Entry Level</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$1,000-$5,000</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$50-$100/lot</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">60%-70%</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Flexible</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Intermediate Level</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$5,000-$20,000</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$100-$500/lot</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">70%-80%</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Flexible</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Advanced Level</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$20,000+</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$500+/lot</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">80%-90%+</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">Flexible</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Who Should Apply? Who Shouldn't?</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">Trading is not a technical job, but more a test of psychology and character. We are looking for people with the following traits:</p>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">✓ Suitable People</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strong execution, 100% rule compliance</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Emotionally stable, unaffected by P&L</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Patient and meticulous, long focus time</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strong learning ability, good at summarizing</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>High stress tolerance, can handle failure</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Clear goals, long-term planning</span></li>
+</ul>
+</div>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Trading discipline is like laws and regulations; touching it once brands you as untrustworthy. Once touched, you can never enter the matrix team. A second violation of red lines results in direct dismissal from the team. <strong class="font-bold text-black dark:text-white">Trading is like performing surgery—utmost seriousness required, no tolerance for rule violators.</strong></p>
-
- <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Trading Rule Red Lines:</p>
- <ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Hard stop-loss lines cannot be moved; positions must be set correctly</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Only standard and aggressive entry methods</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Cannot hold positions across red折lines</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Stop-loss and exit must meet rule conditions</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Take-profit lines can only be used with 5x+ profit</span></li>
- </ul>
- </div>
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Meeting Discipline Red Lines:</p>
- <ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Students must not add WeChat, phone, or other contact methods between each other</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• Maintain seriousness in conference rooms; no discussion of topics other than trading</span></li>
- </ul>
- </div>
- </div>
+<p class="text-xl font-bold mb-4 text-black dark:text-white">✗ Unsuitable People</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Want quick riches, expect huge profits</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Highly emotional, impulsive</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Unwilling to follow rules, prefer improvising</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Poor stress tolerance, easily quit</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Lack patience, can't focus long-term</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Insufficient time, can't fully commit</span></li>
+</ul>
 </div>
 
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Final Words</h2>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Cultivating those truly suited, retaining the few, advising the majority to pursue other paths.</p>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">This is a forex trader military training camp. Here, we will train you into regular forces (pass assessment) through strict military-style management. After passing, we will issue you weapons and ammunition, send you to the frontlines for combat (live trading), and welcome you back victorious (profitable).</p>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Therefore, we will train you very seriously, because no general wishes to sacrifice the soldiers they've painstakingly trained (we won't send unprofitable traders to the frontlines to become cannon fodder).</p>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">After passing the assessment, our relationship is one of mutual cooperation and shared success. You can choose to operate independently or back-to-back with comrades. We are not an employer-employee relationship—you are an independent entrepreneur, an independent individual.</p>
-
-<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-6 border-2 border-black dark:border-white">
- <p class="text-lg leading-relaxed mb-3 text-white dark:text-black">The spoils you capture on the battlefield—<strong class="font-bold text-black dark:text-white">at least 60% belong to you personally</strong>. As your abilities improve, this ratio will increase, <strong class="font-bold text-black dark:text-white">reaching up to 90% and beyond</strong>.</p>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">? Can Be Cultivated</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Technical analysis skills (trainable)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Market understanding (trainable)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trading experience (trainable)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Risk awareness (trainable)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Market sense (trainable)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Trading strategies (trainable)</span></li>
+</ul>
 </div>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Because this is a narrow gate, haven't you heard that"free" may be more"expensive" than money? First, once you commit and are selected, professional trading training requires full dedication. Second, those who truly persevere won't be burdened by money, but indeed"the road is long and arduous." Third, unlike traditional disciplines, you don't need to pay tens of thousands in"tuition"—after all, this is a business of money making money.</p>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
+</div>
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">How to Apply</h2>
 
-<ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Complete Psychology Test</strong> - First complete the psychology test to ensure you possess the psychological qualities to become a professional trader</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Contact Team Leader</strong> - Contact the team leader via email, submit your application intention</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Initial Interview</strong> - Team leader will contact you to arrange preliminary interview</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">Formal Training Begins</strong> - After passing the interview, formally begin training</span></li>
-</ol>
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">If you think you meet the requirements and are ready to accept rigorous training, please follow these steps to apply:</p>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">Contact Information</h3>
-
+<div class="space-y-4 mb-8">
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Email:</strong> x.stark.dylan@gmail.com</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Please include your basic information, educational background, and why you want to become a forex trader in your email.</p>
+<div class="flex gap-4 items-start">
+<div class="flex-shrink-0 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">1</span>
+</div>
+<div class="flex-grow">
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Complete Psychological Assessment</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Complete the full psychological assessment questionnaire on the website, which will help us preliminarily assess whether you're suited to be a trader. The assessment takes about 20-30 minutes, please answer seriously.</p>
+</div>
+</div>
 </div>
 
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Ready?</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Remember: The greatest risk is elimination, the cost is time. If clear-headed and ready, schedule an interview. After passing, enter training.</p>
- <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">10-15%</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Final Pass Rate</p>
- </div>
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Only One</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Number of Opportunities</p>
- </div>
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">45 Days</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Time Cost</p>
- </div>
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Completely Free</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">Financial Cost</p>
- </div>
- </div>
+<div class="flex gap-4 items-start">
+<div class="flex-shrink-0 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">2</span>
+</div>
+<div class="flex-grow">
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Email Team Leader</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Submit your application materials via email, including: resume, education certificates, psychological assessment results, application reason (within 200 words).</p>
+<p class="text-sm text-gray-500 dark:text-gray-500">Email: x.stark.dylan@gmail.com</p>
+</div>
+</div>
 </div>
 
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="flex gap-4 items-start">
+<div class="flex-shrink-0 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">3</span>
+</div>
+<div class="flex-grow">
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Initial Interview</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">Team leader will reply within 3 working days. If you pass initial screening, we'll arrange an online interview (30-60 minutes) to further understand your situation and intentions.</p>
+</div>
+</div>
+</div>
 
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white"> Risk Warning:</strong> Forex trading carries risk, investment requires caution. Site content for learning reference only, not investment advice.</p>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="flex gap-4 items-start">
+<div class="flex-shrink-0 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">4</span>
+</div>
+<div class="flex-grow">
+<p class="text-xl font-bold mb-2 text-black dark:text-white">Formally Begin Training</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">After passing the interview, we'll arrange specific training start time. Please prepare in advance: adjust your schedule, prepare equipment, adjust your mindset.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">Important Reminder</p>
+<ul class="space-y-3">
+<li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="font-bold">•</span><span>Each person has only one chance, eliminated applicants cannot reapply</span></li>
+<li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="font-bold">•</span><span>Training is completely free, but requires full time commitment</span></li>
+<li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="font-bold">•</span><span>10%-15% pass rate, be mentally prepared</span></li>
+<li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="font-bold">•</span><span>Please only apply after fully understanding all requirements</span></li>
+</ul>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Frequently Asked Questions</h2>
+
+<div class="space-y-4 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Q: Does training really cost nothing?</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">A: Yes, completely free. We don't charge any training fees, material fees, or security deposits. But you need to invest your own time and energy.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Q: Why is the pass rate so low?</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">A: Because we only cultivate those truly suited. Trading requires specific psychological qualities and personality traits that not everyone possesses. We'd rather have high standards than waste your time.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Q: What income can I expect after passing?</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">A: Income depends entirely on your trading performance. During small-amount live stage ($100 capital, 60% profit share), if you profit $50 weekly, you get $30. As capital and profit share increase, income grows accordingly.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Q: Can I participate part-time?</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">A: No. Training requires continuous 30 working days, 8 hours daily. Part-time participation cannot guarantee training quality and pass rates.</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-3 text-black dark:text-white">Q: Can I use my own capital for trading?</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">A: We strongly advise against it. Before proving stable profitability, trading with your own funds will only result in losses. We provide all training and live trading capital.</p>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Final Thoughts</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">FX Killer is not just a training institution, but more like a highly disciplined military camp. We won't promise you quick riches or easy success. What we can provide is:</p>
+
+<ul class="space-y-3 mb-8">
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>A complete and battle-tested trading system</span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Strict and systematic professional training</span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Patient and responsible one-on-one mentorship</span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Continuous support and resource sharing</span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>Fair and generous profit-sharing mechanism</span></li>
+</ul>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">If you think you have what it takes, and are willing to invest time and energy to become a professional trader, welcome to join us. Remember: only 10%-15% can make it to the end, but these few will earn the qualification to become professional traders.</p>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-3xl font-bold mb-4 text-white dark:text-black text-center">Are you ready to accept the challenge?</p>
+<p class="text-lg text-center text-white dark:text-black">Email us: x.stark.dylan@gmail.com</p>
+</div>
+
+<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Risk Warning:</strong> Forex trading carries risk, investment requires caution. Site content for learning reference only, not investment advice.</p>
 
 <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">*Last Updated: January 2025*</p>`
  },

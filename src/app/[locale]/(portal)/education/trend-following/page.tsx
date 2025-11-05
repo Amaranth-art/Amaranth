@@ -24,7 +24,7 @@ export default async function TrendFollowingPage({ params }: { params: Promise<{
   const isZh = lang === 'zh';
 
   return (
-    <EducationPageTemplate content={content}>
+    <EducationPageTemplate content={content} language={lang}>
       {/* Section 1: What is Trend Following */}
       <section id="what-is-trend-following" className="mb-16 scroll-mt-20">
         <h2 className="text-3xl font-black mb-6 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">

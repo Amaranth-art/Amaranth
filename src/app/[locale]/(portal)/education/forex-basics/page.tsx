@@ -1,10 +1,11 @@
-import { getServerLanguage, generateBilingualMetadata } from '@/lib/getServerLanguage';
+import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
 import { forexBasicsContent } from '@/content/education/forex-basics.content';
 import EducationPageTemplate from '@/components/education/EducationPageTemplate';
 import Link from 'next/link';
 
-export async function generateMetadata() {
-  const lang = await getServerLanguage();
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const lang = getLanguageFromLocale(locale);
 
   return generateBilingualMetadata(
     forexBasicsContent.zh.title,
@@ -24,7 +25,7 @@ export default async function ForexBasicsPage({ params }: { params: Promise<{ lo
   const isZh = lang === 'zh';
 
   return (
-    <EducationPageTemplate content={content}>
+    <EducationPageTemplate content={content} language={lang}>
       {/* Section 1: What is Forex */}
       <section id="what-is-forex" className="mb-16 scroll-mt-20">
         <h2 className="text-3xl font-black mb-6 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">

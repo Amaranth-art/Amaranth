@@ -24,7 +24,7 @@ export default async function SwingTradingPage({ params }: { params: Promise<{ l
   const isZh = lang === 'zh';
 
   return (
-    <EducationPageTemplate content={content}>
+    <EducationPageTemplate content={content} language={lang}>
       {/* Section 1: What is Swing Trading */}
       <section id="what-is-swing-trading" className="mb-16 scroll-mt-20">
         <h2 className="text-3xl font-black mb-6 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">

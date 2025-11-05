@@ -1,27 +1,32 @@
 import Link from 'next/link';
+import LocaleLink from '@/components/navigation/LocaleLink';
 import { EducationPageContent } from '@/content/education/forex-basics.content';
 
 interface EducationPageTemplateProps {
   content: EducationPageContent;
   children: React.ReactNode; // Main article content with sections
+  language?: 'zh' | 'en'; // Optional language parameter
 }
 
 export default function EducationPageTemplate({
   content,
   children,
+  language,
 }: EducationPageTemplateProps) {
+  // Determine language from prop or fallback to title detection
+  const isZh = language ? language === 'zh' : !content.heroTitle.includes('Forex');
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       <article className="max-w-4xl mx-auto px-6 py-24">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 dark:text-gray-400 mb-6">
-          <Link href="/" className="hover:text-black dark:hover:text-white">
-            {content.heroTitle.includes('Forex') ? 'Home' : '首页'}
-          </Link>
+          <LocaleLink href="/" className="hover:text-black dark:hover:text-white">
+            {isZh ? '首页' : 'Home'}
+          </LocaleLink>
           {' > '}
-          <Link href="/education" className="hover:text-black dark:hover:text-white">
-            {content.heroTitle.includes('Forex') ? 'Education Center' : '教育中心'}
-          </Link>
+          <LocaleLink href="/education" className="hover:text-black dark:hover:text-white">
+            {isZh ? '教育中心' : 'Education Center'}
+          </LocaleLink>
           {' > '}
           <span className="text-black dark:text-white">{content.heroTitle}</span>
         </nav>
@@ -38,19 +43,19 @@ export default function EducationPageTemplate({
           <div className="flex flex-wrap gap-4 text-sm">
             <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700">
               <span className="text-gray-600 dark:text-gray-400">
-                {content.heroTitle.includes('Forex') ? '📖 Reading Time:' : '📖 阅读时间：'}
+                {isZh ? '📖 阅读时间：' : '📖 Reading Time:'}
               </span>
               <span className="font-bold text-black dark:text-white">{content.readingTime}</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700">
               <span className="text-gray-600 dark:text-gray-400">
-                {content.heroTitle.includes('Forex') ? '🎯 Difficulty:' : '🎯 难度：'}
+                {isZh ? '🎯 难度：' : '🎯 Difficulty:'}
               </span>
               <span className="font-bold text-black dark:text-white">{content.difficulty}</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700">
               <span className="text-gray-600 dark:text-gray-400">
-                {content.heroTitle.includes('Forex') ? '📅 Updated:' : '📅 更新：'}
+                {isZh ? '📅 更新：' : '📅 Updated:'}
               </span>
               <span className="font-bold text-black dark:text-white">{content.lastUpdated}</span>
             </div>
