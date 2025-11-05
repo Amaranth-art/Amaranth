@@ -680,9 +680,9 @@ export default function ForexBasicsPage() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/education/technical-analysis" className="border-2 border-black dark:border-white p-6 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all group">
+            <Link href="/education#technical" className="border-2 border-black dark:border-white p-6 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all group">
               <div className="text-3xl mb-4">📊</div>
-              <h3 className="text-xl font-bold mb-2">技术分析入门</h3>
+              <h3 className="text-xl font-bold mb-2">技术分析课程</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400 group-hover:text-gray-300 dark:group-hover:text-gray-600">
                 学习K线图、技术指标和图表形态分析方法
               </p>
@@ -696,9 +696,9 @@ export default function ForexBasicsPage() {
               </p>
             </Link>
 
-            <Link href="/education/risk-management" className="border-2 border-black dark:border-white p-6 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all group">
+            <Link href="/education#risk" className="border-2 border-black dark:border-white p-6 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all group">
               <div className="text-3xl mb-4">🛡️</div>
-              <h3 className="text-xl font-bold mb-2">风险管理策略</h3>
+              <h3 className="text-xl font-bold mb-2">风险管理课程</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400 group-hover:text-gray-300 dark:group-hover:text-gray-600">
                 掌握止损、仓位控制和资金管理的核心技巧
               </p>

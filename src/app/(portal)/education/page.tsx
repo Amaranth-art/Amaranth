@@ -149,22 +149,6 @@ export default function EducationPage() {
                 <div className="text-sm text-gray-400 dark:text-gray-600">随时访问</div>
               </div>
             </div>
-
-            {/* Search Box (Placeholder) */}
-            <div className="max-w-2xl mx-auto">
-              <div className="relative">
-                <input
-                  type="text"
-                  placeholder="搜索课程、主题或关键词..."
-                  className="w-full px-6 py-4 bg-white dark:bg-black text-black dark:text-white border-2 border-white dark:border-black focus:outline-none text-lg"
-                  disabled
-                />
-                <button className="absolute right-2 top-1/2 -translate-y-1/2 px-6 py-2 bg-white dark:bg-black text-black dark:text-white font-bold border-2 border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all">
-                  搜索
-                </button>
-              </div>
-              <p className="text-sm text-gray-400 dark:text-gray-600 mt-2">搜索功能即将推出</p>
-            </div>
           </div>
         </div>
       </div>
