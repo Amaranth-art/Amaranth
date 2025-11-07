@@ -18,7 +18,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations: Record<Language, Record<string, string>> = {
   zh: {
     // 品牌名
-    'brand.name': '汇刃',
+    'brand.name': '小猫',
     'brand.full': 'FX Killer',
 
     // 导航栏
@@ -34,12 +34,12 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Hero Section
     'hero.title': 'Professional FX Trader Training Platform',
-    'hero.subtitle': '精准、专业、高效 - 培养真正的外汇交易专家',
+    'hero.subtitle': '精准、专业、高效 - 我爱小猫',
     'hero.cta.learn': '了解外汇培训',
     'hero.cta.dashboard': '进入交易系统',
 
     // Why Choose Section
-    'why.title': '为什么选择汇刃',
+    'why.title': '为什么选择小猫',
     'why.subtitle': '专注筛选和培养顶尖外汇交易员，培养真正适合的人，留下极少数，劝返大多数',
 
     // Advantages
@@ -52,7 +52,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Comparison
     'comparison.vs': 'VS 传统外汇培训',
-    'comparison.fxkiller': '汇刃',
+    'comparison.fxkiller': '小猫',
     'comparison.traditional': '传统培训机构',
     'comparison.free': '完全免费 - 无任何培训费用',
     'comparison.practical': '实战培养 - 30天系统化职业训练',
@@ -164,7 +164,7 @@ const translations: Record<Language, Record<string, string>> = {
     'footer.contact.focus': '专注外汇交易培训',
     'footer.contact.cultivate': '培养职业外汇交易员',
     'footer.contact.apply': '立即申请',
-    'footer.copyright': '© 汇刃 · 专业外汇交易员培训平台 · fxkiller.com',
+    'footer.copyright': '© 小猫 · 专业外汇交易员培训平台 · fxkiller.com',
     'footer.disclaimer': ' 外汇交易有风险，投资需谨慎 · 本站内容仅供学习参考，不构成投资建议',
     'footer.partners.title': '合作伙伴',
     'footer.partners.brokers': '合作经纪商',
@@ -482,13 +482,13 @@ const translations: Record<Language, Record<string, string>> = {
     'assessment.motivation.desc': '正确的交易动机和职业追求',
 
     // Blog
-    'blog.title': '交易博客',
-    'blog.subtitle': '专业交易知识、实战经验与交易智慧分享',
-    'blog.hero.badge': '专业交易知识',
-    'blog.featured': '精选',
-    'blog.minRead': '分钟阅读',
-    'blog.noPosts': '暂无文章',
-    'blog.notFound': '文章未找到',
+    'blog.title': '小猫钓鱼',
+    'blog.subtitle': '小猫钓了一条鱼',
+    'blog.hero.badge': '小猫钓了一条鱼',
+    'blog.featured': '小猫钓了一条鱼',
+    'blog.minRead': '小猫钓了一条鱼',
+    'blog.noPosts': '小猫钓了一条鱼',
+    'blog.notFound': '小猫钓了一条鱼',
     'blog.backToBlog': '返回博客',
     'blog.relatedPosts': '相关文章',
     'blog.cta.title': '准备开始您的交易之旅？',

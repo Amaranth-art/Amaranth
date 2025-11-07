@@ -17,6 +17,8 @@ export default function UnifiedNavbar() {
   const { theme, toggleTheme, mounted } = useTheme();
   const { language, toggleLanguage, t } = useLanguage();
 
+  const highlightLinks = ['/splan/join-us', '/education', '/splan/blog'];
+
   const navItems = [
     {
       name: t('nav.home'),
@@ -114,77 +116,82 @@ export default function UnifiedNavbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-1">
-            {navItems.map((item, index) => (
-              <div
-                key={index}
-                className="relative"
-                onMouseEnter={() => item.hasDropdown && setOpenDropdown(item.name)}
-                onMouseLeave={() => item.hasDropdown && setOpenDropdown(null)}
-              >
-                <LocaleLink
-                  href={item.link}
-                  className="relative px-4 py-2 text-sm font-medium transition-colors group flex items-center gap-1"
-                >
-                  <span
-                    className={`relative z-10 ${
-                      isActive(item.link)
-                        ? 'text-black dark:text-white font-bold'
-                        : 'text-gray-600 dark:text-gray-400 group-hover:text-black dark:group-hover:text-white'
-                    }`}
-                  >
-                    {item.name}
-                  </span>
-                  {item.hasDropdown && (
-                    <svg
-                      className={`w-4 h-4 transition-transform ${
-                        openDropdown === item.name ? 'rotate-180' : ''
-                      } ${
-                        isActive(item.link)
-                          ? 'text-black dark:text-white'
-                          : 'text-gray-600 dark:text-gray-400 group-hover:text-black dark:group-hover:text-white'
-                      }`}
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  )}
-                  {isActive(item.link) && !item.hasDropdown && (
-                    <motion.div
-                      layoutId="navbar-indicator"
-                      className="absolute bottom-0 left-0 right-0 h-0.5 bg-black dark:bg-white"
-                      transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
-                    />
-                  )}
-                </LocaleLink>
+            {navItems.map((item, index) => {
+              const active = isActive(item.link);
+              const isHighlighted = highlightLinks.includes(item.link);
+              const textClass = active
+                ? 'text-black dark:text-white font-bold'
+                : isHighlighted
+                  ? 'text-black dark:text-white'
+                  : 'text-gray-600 dark:text-gray-400 group-hover:text-black dark:group-hover:text-white';
+              const iconClass = active
+                ? 'text-black dark:text-white'
+                : isHighlighted
+                  ? 'text-black dark:text-white'
+                  : 'text-gray-600 dark:text-gray-400 group-hover:text-black dark:group-hover:text-white';
 
-                {/* Dropdown Menu */}
-                {item.hasDropdown && item.dropdownItems && (
-                  <AnimatePresence>
-                    {openDropdown === item.name && (
-                      <motion.div
-                        initial={{ opacity: 0, y: -10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        transition={{ duration: 0.2 }}
-                        className="absolute top-full left-0 mt-1 w-56 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-lg z-50"
+              return (
+                <div
+                  key={index}
+                  className="relative"
+                  onMouseEnter={() => item.hasDropdown && setOpenDropdown(item.name)}
+                  onMouseLeave={() => item.hasDropdown && setOpenDropdown(null)}
+                >
+                  <LocaleLink
+                    href={item.link}
+                    className="relative px-4 py-2 text-sm font-medium transition-colors group flex items-center gap-1"
+                  >
+                    <span className={`relative z-10 ${textClass}`}>
+                      {item.name}
+                    </span>
+                    {item.hasDropdown && (
+                      <svg
+                        className={`w-4 h-4 transition-transform ${
+                          openDropdown === item.name ? 'rotate-180' : ''
+                        } ${iconClass}`}
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
                       >
-                        {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
-                          <LocaleLink
-                            key={dropdownIndex}
-                            href={dropdownItem.link}
-                            className="block px-4 py-3 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-colors border-b border-gray-100 dark:border-gray-800 last:border-b-0"
-                          >
-                            {dropdownItem.name}
-                          </LocaleLink>
-                        ))}
-                      </motion.div>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
                     )}
-                  </AnimatePresence>
-                )}
-              </div>
-            ))}
+                    {active && !item.hasDropdown && (
+                      <motion.div
+                        layoutId="navbar-indicator"
+                        className="absolute bottom-0 left-0 right-0 h-0.5 bg-black dark:bg-white"
+                        transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                      />
+                    )}
+                  </LocaleLink>
+
+                  {/* Dropdown Menu */}
+                  {item.hasDropdown && item.dropdownItems && (
+                    <AnimatePresence>
+                      {openDropdown === item.name && (
+                        <motion.div
+                          initial={{ opacity: 0, y: -10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -10 }}
+                          transition={{ duration: 0.2 }}
+                          className="absolute top-full left-0 mt-1 w-56 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-lg z-50"
+                        >
+                          {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
+                            <LocaleLink
+                              key={dropdownIndex}
+                              href={dropdownItem.link}
+                              className="block px-4 py-3 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-colors border-b border-gray-100 dark:border-gray-800 last:border-b-0"
+                            >
+                              {dropdownItem.name}
+                            </LocaleLink>
+                          ))}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  )}
+                </div>
+              );
+            })}
           </div>
 
           {/* Right Side Actions (Desktop) */}
@@ -270,58 +277,67 @@ export default function UnifiedNavbar() {
             className="md:hidden border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900"
           >
             <div className="px-4 py-4 space-y-2">
-              {navItems.map((item, index) => (
-                <div key={index}>
-                  {item.hasDropdown ? (
-                    <div>
-                      <button
-                        onClick={() => setOpenDropdown(openDropdown === item.name ? null : item.name)}
-                        className={`w-full flex items-center justify-between px-4 py-3 text-sm font-medium transition-colors ${
-                          isActive(item.link)
+              {navItems.map((item, index) => {
+                const active = isActive(item.link);
+                const isHighlighted = highlightLinks.includes(item.link);
+
+                return (
+                  <div key={index}>
+                    {item.hasDropdown ? (
+                      <div>
+                        <button
+                          onClick={() => setOpenDropdown(openDropdown === item.name ? null : item.name)}
+                          className={`w-full flex items-center justify-between px-4 py-3 text-sm font-medium transition-colors ${
+                            active
+                              ? 'bg-gray-100 dark:bg-gray-800 text-black dark:text-white font-bold'
+                              : isHighlighted
+                                ? 'text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800'
+                                : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+                          }`}
+                        >
+                          <span>{item.name}</span>
+                          <svg
+                            className={`w-4 h-4 transition-transform ${
+                              openDropdown === item.name ? 'rotate-180' : ''
+                            }`}
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </button>
+                        {openDropdown === item.name && item.dropdownItems && (
+                          <div className="pl-4 mt-1 space-y-1">
+                            {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
+                              <LocaleLink
+                                key={dropdownIndex}
+                                href={dropdownItem.link}
+                                className="block px-4 py-2 text-sm text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-colors"
+                              >
+                                {dropdownItem.name}
+                              </LocaleLink>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ) : (
+                      <LocaleLink
+                        href={item.link}
+                        className={`block px-4 py-3 text-sm font-medium transition-colors ${
+                          active
                             ? 'bg-gray-100 dark:bg-gray-800 text-black dark:text-white font-bold'
-                            : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+                            : isHighlighted
+                              ? 'text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800'
+                              : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
                         }`}
                       >
-                        <span>{item.name}</span>
-                        <svg
-                          className={`w-4 h-4 transition-transform ${
-                            openDropdown === item.name ? 'rotate-180' : ''
-                          }`}
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                        </svg>
-                      </button>
-                      {openDropdown === item.name && item.dropdownItems && (
-                        <div className="pl-4 mt-1 space-y-1">
-                          {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
-                            <LocaleLink
-                              key={dropdownIndex}
-                              href={dropdownItem.link}
-                              className="block px-4 py-2 text-sm text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-colors"
-                            >
-                              {dropdownItem.name}
-                            </LocaleLink>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  ) : (
-                    <LocaleLink
-                      href={item.link}
-                      className={`block px-4 py-3 text-sm font-medium transition-colors ${
-                        isActive(item.link)
-                          ? 'bg-gray-100 dark:bg-gray-800 text-black dark:text-white font-bold'
-                          : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
-                      }`}
-                    >
-                      {item.name}
-                    </LocaleLink>
-                  )}
-                </div>
-              ))}
+                        {item.name}
+                      </LocaleLink>
+                    )}
+                  </div>
+                );
+              })}
 
               {/* Mobile Theme and Language Toggle */}
               <div className="px-4 pt-2 space-y-2">

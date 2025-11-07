@@ -11,7 +11,6 @@ import { FadeInSlide, ScaleFadeIn, HoverCard, PulseButton, FloatingBadge, Stagge
 import Testimonials from '@/components/custom/Testimonials';
 import StatsSection from '@/components/custom/StatsSection';
 import InterviewCTA from '@/components/custom/InterviewCTA';
-import CandlestickChart from '@/components/custom/CandlestickChart';
 import Image from 'next/image';
 import { useLanguage } from '@/contexts/LanguageContext';
 import ShineButton from '@/components/custom/ShineButton';
@@ -55,27 +54,13 @@ const DummyContent = () => {
 
   return (
     <div className="w-full -mt-20">
-      {/* Hero Section - Full Width K-line Background */}
-      <div className="relative bg-white dark:bg-black overflow-hidden h-screen">
-        {/* K-line Chart Background */}
-        <div className="absolute inset-0 w-full h-full">
-          <CandlestickChart />
-        </div>
-
-        {/* Gradient Overlay - from left (opaque) to right (transparent) */}
-        <div
-          className="absolute inset-0 w-full h-full pointer-events-none"
-          style={{
-            background: 'linear-gradient(to right, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 30%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0) 100%)'
-          }}
-        />
-        <div
-          className="absolute inset-0 w-full h-full pointer-events-none dark:block hidden"
-          style={{
-            background: 'linear-gradient(to right, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0) 100%)'
-          }}
-        />
-
+      {/* Hero Section - Gradient Background */}
+      <div
+        className="relative overflow-hidden h-screen"
+        style={{
+          background: 'linear-gradient(135deg, #ffd700 0%, #ffc300 35%, #ffb000 70%, #e6a100 100%)'
+        }}
+      >
         {/* Content Overlay - Centered in viewport */}
         <div className="relative z-10 flex items-center h-full">
           <div className="max-w-7xl mx-auto px-6 w-full">
